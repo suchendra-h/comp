@@ -18,20 +18,6 @@ We will initially follow the first approach and review the literature for the me
 % We will mainly consider two applications of ML, mobile health, and autonomous vehicles. ISO26262 and ISO/PAS 21448 are two main safety standards used for safety of electronic components \cite{Mohseni2020}.
 
 There are inherent performance metrics related to ML methods, such as accuracy and robustness, which can affect their applicability in safety critical applications. ML models can also be dependent to the domain they are trained \cite{Ganin2015}. In addition, other perturbations such as noise, natural and imaging artifacts can cause ML models to function less accurately \cite{Hendrycks2019}.
-In \cite{Amodei}, five major research problems associated with unsafe behaviour of ML models is presented. They can be summarized as
-\begin{enumerate}
-	\item Avoiding Negative Side Effects: How to ensure that the model will not disturb the environment while pursuing its goals, e.g. can a cleaning robot knock over a vase because it can clean faster by doing so? Can we do this without manually specifying everything the robot should not disturb \cite{Amodei}?
-	
-	\item Avoiding Reward Hacking: How to ensure that the model does not avoid situations to achieve a higher reward. For example, if we reward the robot for achieving an environment free of messes, it might disable its vision so that it won’t find any messes, or cover over messes with materials it can’t see through, or simply hide when humans are around so they can’t tell it about new types of messes \cite{Amodei}. 
-	
-	\item Scalable Oversight: How to ensure the model respects the parts of the objective function that are expensive to evaluate and makes a safe approximation of these parts. 
-	For example, in the cleaning robot example, if the user is happy with the cleaning quality is an expensive objective function, but it can be approximated to presence of any dirt on the floor when the user arrives \cite{Amodei}. 
-	
-	\item Safe Exploration: How to ensure that the ML model explorations are safe. For example, the robot should experiment with mopping strategies, but putting a wet mop in an electrical outlet is a very bad idea \cite{Amodei}. 
-	
-	\item Robustness to Distributional Shift: How to ensure that the model performs robustly if the environment shifts from the training environment. For example, strategies a cleaning robot learns for cleaning an office might be dangerous on a factory workfloor \cite{Amodei}.
-
-\end{enumerate}
 
 Assurance cases should be generated to describe why a system can be trustfully used for a specific application \cite{Ashmore2021}.
 
@@ -52,4 +38,3 @@ Reasons used in a structured argument can be considered as premises in logical t
 
 \textcolor{red}{this might need more expansion as to what are some of the examples of these premises and the assurance cases.}
 
-Assurance for machine learning systems is often investigated in 

@@ -7,8 +7,12 @@ Reallocating 'name_of_file' (item size: 1) to 10 items.
 A level-1 auxiliary file: abstr.aux
 Reallocating 'name_of_file' (item size: 1) to 17 items.
 A level-1 auxiliary file: introduction.aux
-Reallocating 'name_of_file' (item size: 1) to 19 items.
-A level-1 auxiliary file: sample_chapter.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_2.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_3.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_4.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: conclusion.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
@@ -29,7 +33,7 @@ Warning--empty institution in Omg2010
 Warning--empty institution in Schwalbe2020
 You've used 14 entries,
             2118 wiz_defined-function locations,
-            584 strings with 9117 characters,
+            586 strings with 9138 characters,
 and the built_in function-call counts, 7624 in all, are:
 = -- 626
 > -- 786

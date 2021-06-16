@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.13)  16 JUN 2021 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.13)  16 JUN 2021 15:21
 entering extended mode
 **"c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex"
 (c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex
@@ -355,7 +355,7 @@ Package csquotes Info: ... none found.
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count300
 \l__pdf_internal_box=\box58
-) (Thesis_Main.aux (layabstr.aux) (abstr.aux) (introduction.aux) (sample_chapter.aux) (conclusion.aux))
+) (Thesis_Main.aux (layabstr.aux) (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
 \openout1 = `Thesis_Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -478,37 +478,41 @@ Chapter 1.
 [1
 
 
-] [2] [3]) [4]
-\openout2 = `sample_chapter.aux'.
+] [2]) [3]
+\openout2 = `chapter_2.aux'.
 
- (sample_chapter.tex
+ (chapter_2.tex
 Chapter 2.
-<figures/Sample/tumblr_static_eaceks0rfxsss8o4swscw40wo.jpg, id=164, 180.675pt x 120.45pt>
-File: figures/Sample/tumblr_static_eaceks0rfxsss8o4swscw40wo.jpg Graphic file (type jpg)
-<use figures/Sample/tumblr_static_eaceks0rfxsss8o4swscw40wo.jpg>
-Package pdftex.def Info: figures/Sample/tumblr_static_eaceks0rfxsss8o4swscw40wo.jpg  used on input line 13.
-(pdftex.def)             Requested size: 260.17464pt x 173.46622pt.
-File: figures/Sample/tumblr_static_eaceks0rfxsss8o4swscw40wo.jpg Graphic file (type jpg)
-<use figures/Sample/tumblr_static_eaceks0rfxsss8o4swscw40wo.jpg>
-Package pdftex.def Info: figures/Sample/tumblr_static_eaceks0rfxsss8o4swscw40wo.jpg  used on input line 24.
-(pdftex.def)             Requested size: 303.53267pt x 202.37482pt.
-File: figures/Sample/tumblr_static_eaceks0rfxsss8o4swscw40wo.jpg Graphic file (type jpg)
-<use figures/Sample/tumblr_static_eaceks0rfxsss8o4swscw40wo.jpg>
-Package pdftex.def Info: figures/Sample/tumblr_static_eaceks0rfxsss8o4swscw40wo.jpg  used on input line 31.
-(pdftex.def)             Requested size: 303.53267pt x 202.37482pt.
-
-LaTeX Warning: Reference `appendix_b' on page 5 undefined on input line 57.
-
-[5
+[4
 
 
 
 
-]) [6 <./figures/Sample/tumblr_static_eaceks0rfxsss8o4swscw40wo.jpg>] [7]
+]) [5]
+\openout2 = `chapter_3.aux'.
+
+ (chapter_3.tex
+Chapter 3.
+) [6
+
+
+
+
+]
+\openout2 = `chapter_4.aux'.
+
+ (chapter_4.tex
+Chapter 4.
+) [7
+
+
+
+
+]
 \openout2 = `conclusion.aux'.
 
  (conclusion.tex
-Chapter 3.
+Chapter 5.
 ) [8
 
 
@@ -518,25 +522,22 @@ Chapter 3.
 
 
 
-] [10] [11]) [12] (Thesis_Main.aux (layabstr.aux) (abstr.aux) (introduction.aux) (sample_chapter.aux) (conclusion.aux))
-
-LaTeX Warning: There were undefined references.
-
+] [10] [11]) [12] (Thesis_Main.aux (layabstr.aux) (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
 Package rerunfilecheck Info: File `Thesis_Main.out' has not changed.
-(rerunfilecheck)             Checksum: A80C9F1FAD4066CEB7DE9C646869FA7E;1161.
+(rerunfilecheck)             Checksum: 90A6F2A8CEC9DB35BB756A14781B9F98;1046.
  ) 
 Here is how much of TeX's memory you used:
- 12378 strings out of 479334
- 190044 string characters out of 2855184
- 508820 words of memory out of 3000000
- 29551 multiletter control sequences out of 15000+200000
- 412124 words of font info for 58 fonts, out of 3000000 for 9000
+ 12355 strings out of 479334
+ 189768 string characters out of 2855184
+ 509390 words of memory out of 3000000
+ 29524 multiletter control sequences out of 15000+200000
+ 411517 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,12n,77p,599b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis_Main.pdf (21 pages, 292829 bytes).
+ 71i,11n,77p,599b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Thesis_Main.pdf (21 pages, 135378 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
