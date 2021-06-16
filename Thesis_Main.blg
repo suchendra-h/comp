@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis_Main.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: layabstr.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+A level-1 auxiliary file: abstr.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: conclusion.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+Database file #1: comprehensive.bib
+Database file #2: references_another.bib
+Warning--empty journal in Abadi
+Warning--empty year in Abadi
+Warning--empty institution in Al-Rfou
+Warning--empty year in Al-Rfou
+Warning--empty institution in Amodei
+Warning--empty year in Amodei
+Warning--empty institution in Foster2014
+Warning--empty institution in koopman2016challenges
+Warning--empty institution in Omg2010
+Warning--empty institution in Schwalbe2020
+You've used 14 entries,
+            2118 wiz_defined-function locations,
+            583 strings with 9099 characters,
+and the built_in function-call counts, 7624 in all, are:
+= -- 626
+> -- 786
+< -- 1
++ -- 312
+- -- 298
+* -- 740
+:= -- 1410
+add.period$ -- 41
+call.type$ -- 14
+change.case$ -- 197
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 140
+empty$ -- 290
+format.name$ -- 298
+if$ -- 1384
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 7
+newline$ -- 71
+num.names$ -- 28
+pop$ -- 198
+preamble$ -- 1
+purify$ -- 177
+quote$ -- 0
+skip$ -- 98
+stack$ -- 0
+substring$ -- 191
+swap$ -- 15
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 56
+warning$ -- 10
+while$ -- 39
+width$ -- 16
+write$ -- 141
+(There were 10 warnings)
