@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.13)  18 JUN 2021 01:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.13)  18 JUN 2021 01:47
 entering extended mode
 **"c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex"
 (c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex
@@ -355,15 +355,7 @@ Package csquotes Info: ... none found.
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count300
 \l__pdf_internal_box=\box58
-) (Thesis_Main.aux
-No file layabstr.aux.
-No file abstr.aux.
-No file introduction.aux.
-No file chapter_2.aux.
-No file chapter_3.aux.
-No file chapter_4.aux.
-No file conclusion.aux.
-)
+) (Thesis_Main.aux)
 \openout1 = `Thesis_Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -422,7 +414,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 31.
 LaTeX Info: Redefining \pageref on input line 31.
 LaTeX Info: Redefining \nameref on input line 31.
- (Thesis_Main.out) (Thesis_Main.out)
 \@outlinefile=\write3
 \openout3 = `Thesis_Main.out'.
 
@@ -440,7 +431,14 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
  (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2]
+)
+
+LaTeX Warning: Reference `NumPrefacePages' on page ii undefined on input line 32.
+
+
+LaTeX Warning: Reference `NumDocumentPages' on page ii undefined on input line 32.
+
+[2]
 \openout2 = `layabstr.aux'.
 
  (layabstr.tex) [3
@@ -454,7 +452,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-] (Thesis_Main.toc)
+]
 \tf@toc=\write4
 \openout4 = `Thesis_Main.toc'.
 
@@ -462,13 +460,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-] (Thesis_Main.lof)
+]
 \tf@lof=\write5
 \openout5 = `Thesis_Main.lof'.
 
  [6
 
-] (Thesis_Main.lot)
+]
 \tf@lot=\write6
 \openout6 = `Thesis_Main.lot'.
 
@@ -483,20 +481,95 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 39.
 
  (introduction.tex
 Chapter 1.
+
+Package natbib Warning: Citation `Foster2014' on page 1 undefined on input line 6.
+
+
+Package natbib Warning: Citation `Lessmann2015' on page 1 undefined on input line 6.
+
+
+Package natbib Warning: Citation `koopman2016challenges' on page 1 undefined on input line 6.
+
+
+Package natbib Warning: Citation `Berk2015' on page 1 undefined on input line 6.
+
+
+Package natbib Warning: Citation `Schwalbe2020' on page 1 undefined on input line 9.
+
+
+Package natbib Warning: Citation `Salay2017' on page 1 undefined on input line 9.
+
+
+Package natbib Warning: Citation `Salay2017' on page 1 undefined on input line 9.
+
 [1
 
 
-] [2]) [3]
+]
+
+Package natbib Warning: Citation `Salay2017' on page 2 undefined on input line 12.
+
+
+Package natbib Warning: Citation `Abadi' on page 2 undefined on input line 13.
+
+
+Package natbib Warning: Citation `Al-Rfou' on page 2 undefined on input line 13.
+
+
+Package natbib Warning: Citation `Ganin2015' on page 2 undefined on input line 20.
+
+
+Package natbib Warning: Citation `Hendrycks2019' on page 2 undefined on input line 20.
+
+
+Package natbib Warning: Citation `Ashmore2021' on page 2 undefined on input line 22.
+
+
+Package natbib Warning: Citation `Bloomfield2010' on page 2 undefined on input line 24.
+
+[2]
+
+Package natbib Warning: Citation `Omg2010' on page 3 undefined on input line 32.
+
+
+Package natbib Warning: Citation `Omg2010' on page 3 undefined on input line 37.
+
+
+Package natbib Warning: Citation `Boehm2000' on page 3 undefined on input line 39.
+
+
+Package natbib Warning: Citation `Ashmore2021' on page 3 undefined on input line 39.
+
+) [3]
 \openout2 = `chapter_2.aux'.
 
  (chapter_2.tex
 Chapter 2.
+
+Package natbib Warning: Citation `Amodei' on page 4 undefined on input line 3.
+
+
+Package natbib Warning: Citation `Amodei' on page 4 undefined on input line 5.
+
+
+Package natbib Warning: Citation `Amodei' on page 4 undefined on input line 7.
+
+
+Package natbib Warning: Citation `Amodei' on page 4 undefined on input line 10.
+
 [4
 
 
 
 
-]) [5]
+]
+
+Package natbib Warning: Citation `Amodei' on page 5 undefined on input line 12.
+
+
+Package natbib Warning: Citation `Amodei' on page 5 undefined on input line 14.
+
+) [5]
 \openout2 = `chapter_3.aux'.
 
  (chapter_3.tex
@@ -526,25 +599,38 @@ Chapter 5.
 
 
 
-] (Thesis_Main.bbl [9
+]
+No file Thesis_Main.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+(Thesis_Main.aux (layabstr.aux) (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
+
+LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-] [10] [11]) [12] (Thesis_Main.aux (layabstr.aux) (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
-Package rerunfilecheck Info: File `Thesis_Main.out' has not changed.
-(rerunfilecheck)             Checksum: 90A6F2A8CEC9DB35BB756A14781B9F98;1046.
+
+Package rerunfilecheck Warning: File `Thesis_Main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis_Main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  90A6F2A8CEC9DB35BB756A14781B9F98;1046.
  ) 
 Here is how much of TeX's memory you used:
- 12334 strings out of 479334
- 188931 string characters out of 2855184
- 506044 words of memory out of 3000000
- 29517 multiletter control sequences out of 15000+200000
- 411517 words of font info for 56 fonts, out of 3000000 for 9000
+ 12272 strings out of 479334
+ 187683 string characters out of 2855184
+ 503592 words of memory out of 3000000
+ 29487 multiletter control sequences out of 15000+200000
+ 411170 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,11n,77p,599b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis_Main.pdf (21 pages, 135743 bytes).
+ 71i,11n,77p,610b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Thesis_Main.pdf (17 pages, 98531 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
