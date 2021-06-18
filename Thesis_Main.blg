@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis_Main.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: layabstr.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+A level-1 auxiliary file: abstr.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_2.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_3.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_4.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: conclusion.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+Database file #1: comprehensive.bib
+Database file #2: references_another.bib
+Warning--empty journal in Abadi
+Warning--empty year in Abadi
+Warning--empty institution in Al-Rfou
+Warning--empty year in Al-Rfou
+Warning--empty institution in Amodei
+Warning--empty year in Amodei
+Warning--empty institution in Boehm2000
+Warning--empty institution in Foster2014
+Warning--empty institution in koopman2016challenges
+Warning--empty institution in Omg2010
+Warning--empty institution in Schwalbe2020
+You've used 15 entries,
+            2118 wiz_defined-function locations,
+            591 strings with 9300 characters,
+and the built_in function-call counts, 7857 in all, are:
+= -- 649
+> -- 799
+< -- 1
++ -- 317
+- -- 302
+* -- 753
+:= -- 1455
+add.period$ -- 44
+call.type$ -- 15
+change.case$ -- 203
+chr.to.int$ -- 0
+cite$ -- 26
+duplicate$ -- 148
+empty$ -- 305
+format.name$ -- 302
+if$ -- 1429
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 7
+newline$ -- 76
+num.names$ -- 30
+pop$ -- 203
+preamble$ -- 1
+purify$ -- 181
+quote$ -- 0
+skip$ -- 104
+stack$ -- 0
+substring$ -- 196
+swap$ -- 15
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 60
+warning$ -- 11
+while$ -- 41
+width$ -- 17
+write$ -- 151
+(There were 11 warnings)
