@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.13)  16 JUN 2021 15:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.13)  18 JUN 2021 01:03
 entering extended mode
 **"c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex"
 (c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex
@@ -355,7 +355,15 @@ Package csquotes Info: ... none found.
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count300
 \l__pdf_internal_box=\box58
-) (Thesis_Main.aux (layabstr.aux) (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
+) (Thesis_Main.aux
+No file layabstr.aux.
+No file abstr.aux.
+No file introduction.aux.
+No file chapter_2.aux.
+No file chapter_3.aux.
+No file chapter_4.aux.
+No file conclusion.aux.
+)
 \openout1 = `Thesis_Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -527,17 +535,16 @@ Package rerunfilecheck Info: File `Thesis_Main.out' has not changed.
 (rerunfilecheck)             Checksum: 90A6F2A8CEC9DB35BB756A14781B9F98;1046.
  ) 
 Here is how much of TeX's memory you used:
- 12355 strings out of 479334
- 189768 string characters out of 2855184
- 509390 words of memory out of 3000000
- 29524 multiletter control sequences out of 15000+200000
+ 12334 strings out of 479334
+ 188931 string characters out of 2855184
+ 506044 words of memory out of 3000000
+ 29517 multiletter control sequences out of 15000+200000
  411517 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,77p,599b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis_Main.pdf (21 pages, 135378 bytes).
+Output written on Thesis_Main.pdf (21 pages, 135743 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
+ 227 PDF objects out of 1000 (max. 8388607)
  48 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
-

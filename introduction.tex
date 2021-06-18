@@ -19,7 +19,7 @@ We will initially follow the first approach and review the literature for the me
 
 There are inherent performance metrics related to ML methods, such as accuracy and robustness, which can affect their applicability in safety critical applications. ML models can also be dependent to the domain they are trained \cite{Ganin2015}. In addition, other perturbations such as noise, natural and imaging artifacts can cause ML models to function less accurately \cite{Hendrycks2019}.
 
-Assurance cases should be generated to describe why a system can be trustfully used for a specific application \cite{Ashmore2021}.
+Assurance cases have been successfully used in various industries to describe why a system can be trustfully used for a specific application \cite{Ashmore2021}.
 
 A recent definition of safety assurance case is described in \cite{Bloomfield2010} as
 
@@ -34,7 +34,12 @@ A structured argument is a \cite{Omg2010}
 "connected series of statements or reasons intended to establish a position...; a process of reasoning."
 \end{displayquote}
 
-Reasons used in a structured argument can be considered as premises in logical terms and a conclusion can be drawn based on them. \cite{Omg2010}. 
+Reasons used in a structured argument can be considered as premises in logical terms and a conclusion can be drawn based on them. \cite{Omg2010}.  \textcolor{red}{this might need more expansion as to what are some of the examples of these premises and the assurance cases.}
 
-\textcolor{red}{this might need more expansion as to what are some of the examples of these premises and the assurance cases.}
-
+To obtain assurance for ML systems it is essential to understand the ML lifecycle. This lifecycle follows a spiral process model\cite{Boehm2000} and is comprised of four stages \cite{Ashmore2021} 
+\begin{itemize}
+    \item Data Management(DM)
+    \item Model Learning
+    \item Model Verification(MV)
+    \item Model Deployment
+\end{itemize}
