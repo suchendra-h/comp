@@ -45,26 +45,30 @@ Dario Amodei, Chris Olah, Google Brain, Jacob Steinhardt, Paul Christiano, John
 \bibitem{Ashmore2021}
 Rob Ashmore, Radu Calinescu, and Colin Paterson.
 \newblock {Assuring the Machine Learning Lifecycle}.
-\newblock {\em ACM Computing Surveys}, 54(5):1--39, may 2021.
+\newblock {\em ACM Comput. Surv.}, 54(5):1--39, may 2021.
 
 \bibitem{Berk2015}
 Richard Berk and Jordan Hyatt.
 \newblock {Machine Learning Forecasts of Risk to Inform Sentencing Decisions}.
-\newblock {\em Source: Federal Sentencing Reporter}, 27(4):222--228, 2015.
+\newblock {\em Source Fed. Sentencing Report.}, 27(4):222--228, 2015.
 
 \bibitem{Bloomfield2010}
 Robin Bloomfield and Peter Bishop.
 \newblock {Safety and assurance cases: Past, present and possible future - An
   adelard perspective}.
-\newblock In {\em Making Systems Safer - Proceedings of the 18th
-  Safety-Critical Systems Symposium, SSS 2010}, pages 51--67. Springer London,
-  2010.
+\newblock In {\em Mak. Syst. Safer - Proc. 18th Safety-Critical Syst. Symp. SSS
+  2010}, pages 51--67. Springer London, 2010.
 
 \bibitem{Boehm2000}
 Barry Boehm and Wilfred~J Hansen.
 \newblock {Spiral Development: Experience, Principles, and Refinements Spiral
   Development Workshop February 9, 2000}.
 \newblock Technical report, 2000.
+
+\bibitem{IanGoodfellow2016}
+Ian~Goodfellow Courville, Yoshua Bengio, and Aaron.
+\newblock {\em {Deep learning}}, volume~29.
+\newblock MIT Press, 2016.
 
 \bibitem{Foster2014}
 Kenneth~R Foster, Robert Koprowski, and Joseph~D Skufca.
@@ -75,8 +79,7 @@ Kenneth~R Foster, Robert Koprowski, and Joseph~D Skufca.
 \bibitem{Ganin2015}
 Yaroslav Ganin and Victor Lempitsky.
 \newblock {Unsupervised domain adaptation by backpropagation}.
-\newblock {\em 32nd International Conference on Machine Learning, ICML 2015},
-  2:1180--1189, sep 2015.
+\newblock {\em 32nd Int. Conf. Mach. Learn. ICML 2015}, 2:1180--1189, sep 2015.
 
 \bibitem{Hendrycks2019}
 Dan Hendrycks and Thomas Dietterich.
@@ -93,7 +96,13 @@ Philip Koopman and Michael Wagner.
 Stefan Lessmann, Bart Baesens, Hsin-Vonn Seow, and Lyn~C Thomas.
 \newblock {Benchmarking state-of-the-art classification algorithms for credit
   scoring: An update of research}.
-\newblock {\em European Journal of Operational Research}, 247:124--136, 2015.
+\newblock {\em Eur. J. Oper. Res.}, 247:124--136, 2015.
+
+\bibitem{mitchell1997machine}
+T~M Mitchell.
+\newblock {\em {Machine Learning}}.
+\newblock McGraw-Hill international editions - computer science series.
+  McGraw-Hill Education, 1997.
 
 \bibitem{Omg2010}
 Omg.

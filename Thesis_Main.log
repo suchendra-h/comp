@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  18 JUN 2021 02:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  22 JUN 2021 13:28
 entering extended mode
 **"c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex"
 (c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex
@@ -356,7 +356,7 @@ Package csquotes Info: ... none found.
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count303
 \l__pdf_internal_box=\box62
-) (Thesis_Main.aux (layabstr.aux) (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
+) (Thesis_Main.aux (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
 \openout1 = `Thesis_Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -427,33 +427,17 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 32.
 
 
 
-{C:/Users/Suchendra/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [1]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
- (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
- (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2]
-\openout2 = `layabstr.aux'.
-
- (layabstr.tex) [3
-
-
-]
+{C:/Users/Suchendra/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 \openout2 = `abstr.aux'.
 
- (abstr.tex) [4
-
-
+ (abstr.tex) [1
 
 
 ] (Thesis_Main.toc)
 \tf@toc=\write4
 \openout4 = `Thesis_Main.toc'.
 
- [5
+ [2
 
 
 
@@ -461,17 +445,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@lof=\write5
 \openout5 = `Thesis_Main.lof'.
 
- [6
+ [3
 
 ] (Thesis_Main.lot)
 \tf@lot=\write6
 \openout6 = `Thesis_Main.lot'.
 
- (notation.tex [7
+ (notation.tex [4
 
-])
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+ (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+ (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 Package hyperref Info: Option `pageanchor' set `true' on input line 39.
- [8
+ [5
 
 ]
 \openout2 = `introduction.aux'.
@@ -525,22 +517,22 @@ Chapter 5.
 
 
 
-] [10] [11]) [12] (Thesis_Main.aux (layabstr.aux) (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
+] [10] [11]) [12] (Thesis_Main.aux (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
 Package rerunfilecheck Info: File `Thesis_Main.out' has not changed.
-(rerunfilecheck)             Checksum: 90A6F2A8CEC9DB35BB756A14781B9F98;1046.
+(rerunfilecheck)             Checksum: 1C93D89A81870CC7C43A1740F0DFC5F1;939.
  ) 
 Here is how much of TeX's memory you used:
- 12532 strings out of 478840
- 193961 string characters out of 2846164
- 521071 words of memory out of 3000000
- 30191 multiletter control sequences out of 15000+600000
- 411517 words of font info for 56 fonts, out of 8000000 for 9000
+ 12514 strings out of 478840
+ 193503 string characters out of 2846164
+ 520622 words of memory out of 3000000
+ 30181 multiletter control sequences out of 15000+600000
+ 410577 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,11n,77p,601b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis_Main.pdf (21 pages, 142903 bytes).
+ 67i,11n,77p,605b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Thesis_Main.pdf (18 pages, 126893 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

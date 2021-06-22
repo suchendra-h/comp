@@ -1,6 +1,5 @@
-\contentsline {chapter}{Lay Abstract}{iii}{chapter*.1}%
-\contentsline {chapter}{Abstract}{iv}{chapter*.2}%
-\contentsline {chapter}{Notation, Definitions, and Abbreviations}{viii}{chapter*.6}%
+\contentsline {chapter}{Abstract}{i}{chapter*.1}%
+\contentsline {chapter}{Notation, Definitions, and Abbreviations}{v}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Safety and assurance}{4}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Machine Learning}{6}{chapter.3}%
