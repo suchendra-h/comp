@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  22 JUN 2021 13:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  23 JUN 2021 02:28
 entering extended mode
 **"c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex"
 (c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex
@@ -453,15 +453,7 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 32.
 
  (notation.tex [4
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
- (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
- (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+])
 Package hyperref Info: Option `pageanchor' set `true' on input line 39.
  [5
 
@@ -488,17 +480,17 @@ Chapter 2.
 
  (chapter_3.tex
 Chapter 3.
-) [6
+[6
 
 
 
 
-]
+]) [7]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
-) [7
+) [8
 
 
 
@@ -508,31 +500,31 @@ Chapter 4.
 
  (conclusion.tex
 Chapter 5.
-) [8
+) [9
 
 
 
 
-] (Thesis_Main.bbl [9
+] (Thesis_Main.bbl [10
 
 
 
-] [10] [11]) [12] (Thesis_Main.aux (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
+] [11] [12]) [13] (Thesis_Main.aux (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
 Package rerunfilecheck Info: File `Thesis_Main.out' has not changed.
 (rerunfilecheck)             Checksum: 1C93D89A81870CC7C43A1740F0DFC5F1;939.
  ) 
 Here is how much of TeX's memory you used:
- 12514 strings out of 478840
- 193503 string characters out of 2846164
- 520622 words of memory out of 3000000
- 30181 multiletter control sequences out of 15000+600000
- 410577 words of font info for 53 fonts, out of 8000000 for 9000
+ 12469 strings out of 478840
+ 192802 string characters out of 2846164
+ 520645 words of memory out of 3000000
+ 30155 multiletter control sequences out of 15000+600000
+ 406230 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,11n,77p,605b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis_Main.pdf (18 pages, 126893 bytes).
+ 67i,11n,77p,752b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Thesis_Main.pdf (19 pages, 111422 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
+ 213 PDF objects out of 1000 (max. 8388607)
  50 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

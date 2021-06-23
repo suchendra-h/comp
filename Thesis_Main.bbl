@@ -124,4 +124,9 @@ Gesina Schwalbe and Martin Schels.
   and Systems (ERTS A Survey on Methods for }.
 \newblock Technical report, 2020.
 
+\bibitem{sutton1992introduction}
+Richard~S Sutton.
+\newblock {Introduction: The challenge of reinforcement learning}.
+\newblock In {\em Reinf. Learn.}, pages 1--3. Springer, 1992.
+
 \end{thebibliography}
