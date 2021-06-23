@@ -70,6 +70,11 @@ Ian~Goodfellow Courville, Yoshua Bengio, and Aaron.
 \newblock {\em {Deep learning}}, volume~29.
 \newblock MIT Press, 2016.
 
+\bibitem{Fischer1936Iris}
+R.~A. FISHER.
+\newblock {THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC PROBLEMS}.
+\newblock {\em Ann. Eugen.}, 7(2):179--188, sep 1936.
+
 \bibitem{Foster2014}
 Kenneth~R Foster, Robert Koprowski, and Joseph~D Skufca.
 \newblock {Machine learning, medical diagnosis, and biomedical engineering

@@ -31,45 +31,45 @@ Warning--empty institution in Foster2014
 Warning--empty institution in koopman2016challenges
 Warning--empty institution in Omg2010
 Warning--empty institution in Schwalbe2020
-You've used 18 entries,
+You've used 19 entries,
             2118 wiz_defined-function locations,
-            613 strings with 9612 characters,
-and the built_in function-call counts, 8736 in all, are:
-= -- 736
-> -- 831
+            622 strings with 9740 characters,
+and the built_in function-call counts, 9035 in all, are:
+= -- 768
+> -- 838
 < -- 3
-+ -- 330
-- -- 312
-* -- 802
-:= -- 1600
-add.period$ -- 55
-call.type$ -- 18
-change.case$ -- 215
++ -- 333
+- -- 314
+* -- 826
+:= -- 1649
+add.period$ -- 58
+call.type$ -- 19
+change.case$ -- 219
 chr.to.int$ -- 0
-cite$ -- 30
-duplicate$ -- 192
-empty$ -- 384
-format.name$ -- 312
-if$ -- 1623
+cite$ -- 31
+duplicate$ -- 203
+empty$ -- 411
+format.name$ -- 314
+if$ -- 1684
 int.to.chr$ -- 0
-int.to.str$ -- 18
-missing$ -- 12
-newline$ -- 91
-num.names$ -- 36
-pop$ -- 224
+int.to.str$ -- 19
+missing$ -- 13
+newline$ -- 96
+num.names$ -- 38
+pop$ -- 226
 preamble$ -- 1
-purify$ -- 192
+purify$ -- 195
 quote$ -- 0
-skip$ -- 129
+skip$ -- 136
 stack$ -- 0
-substring$ -- 227
-swap$ -- 25
+substring$ -- 257
+swap$ -- 26
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 68
+type$ -- 72
 warning$ -- 12
-while$ -- 50
-width$ -- 20
-write$ -- 185
+while$ -- 54
+width$ -- 21
+write$ -- 196
 (There were 12 warnings)
