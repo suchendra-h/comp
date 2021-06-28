@@ -52,6 +52,11 @@ Richard Berk and Jordan Hyatt.
 \newblock {Machine Learning Forecasts of Risk to Inform Sentencing Decisions}.
 \newblock {\em Source Fed. Sentencing Report.}, 27(4):222--228, 2015.
 
+\bibitem{bishop2006pattern}
+C~M Bishop.
+\newblock {\em {Pattern Recognition and Machine Learning}}.
+\newblock Information Science and Statistics. Springer, 2006.
+
 \bibitem{Bloomfield2010}
 Robin Bloomfield and Peter Bishop.
 \newblock {Safety and assurance cases: Past, present and possible future - An

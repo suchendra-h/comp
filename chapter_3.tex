@@ -17,4 +17,17 @@ Reinforcement learning (RL) algorithms experience an environment instead of a fi
 Evidently, ML algorithms need data to learn and function. A dataset can be described as a \textbf{design matrix}. Every row in the matrix contains an example, also known as data-point, and each column is a feature. Iris dataset is one of the first ones used in statistics and ML \cite{Fischer1936Iris}. This dataset is comprised of 150 examples which have 4 features each. One example corresponds to one individual plant. Sepal length, sepal width, petal length and petal width are recorded as features of each plant \cite{Fischer1936Iris}.
 This means that if $X$ is the matrix, we can say $\mathbf{X} \in R^{150 \times 4}$
 
-\textcolor{red}{add about test set and train set, also cross validation?}\\
+The ML model will ultimately be deployed and used in a real world situation, hence, we are interested in how well an ML model performs on the data it has not seen before, this is also known as \textbf{generalization}. A portion of dataset is therefore not used in the training process and reserved as a \textbf{test set}. The data used in the training process is accordingly referred to as the \textbf{training set} \cite{IanGoodfellow2016}. 
+
+In some cases, the training and test datasets might be limited in size and to have a better generalization, it is necessary to use as much of the data for training as possible. In other words, there will be less data available to estimate the performance of the model. One solution for this situation is \textbf{cross-validation}. The entire dataset is split into ${S}$ subsets. In each run, ${S - 1}$ subsets are used for training and one remaining subset is the test set. For the next run, a different test set is selected \cite{bishop2006pattern}. Figure \ref{fig:crossv} shows selection of subset for ${S = 4}$.
+
+\begin{figure}
+    \includegraphics[width=0.5\linewidth ]{figures/crossv.png}
+    \centering
+    \caption{Cross validation for S=4 \cite{bishop2006pattern}.}
+    \label{fig:crossv}
+\end{figure}
+
+
+
+\textcolor{red}{add about neural networks}\\
