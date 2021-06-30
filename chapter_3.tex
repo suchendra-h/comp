@@ -25,12 +25,20 @@ When the safety assurance case is more complex in nature, textual representation
     \label{fig:text-case}
 \end{figure}
 
-The Goal Structuring Notation(GSN) is a graphical notation for safety argumentation. A GSN explicitly represents elements of a safety argument and the relationships among these components. For example, how requirements are supported by claims or how claims are supported by evidence or how the case has a defined context \cite{gsn2004Kelly}. Figure \ref{fig:gsn} depicts basic building blocks of 
+The Goal Structuring Notation(GSN) is a graphical notation for safety argumentation. A GSN explicitly represents elements of a safety argument and the relationships among these components. For example, how requirements are supported by claims or how claims are supported by evidence or how the case has a defined context \cite{gsn2004Kelly}. Figure \ref{fig:gsn} depicts basic building blocks of a GSN with example instances of each element. 
 
 \begin{figure}
     \includegraphics[width=0.5\linewidth ]{figures/gsn.png}
     \centering
     \caption{Basic elements of a GSN \cite{gsn2004Kelly}.}
     \label{fig:gsn}
+\end{figure}
+When these blocks are connected they make a "goal structure". The goal structure is then used show how goals (claims about the system) can be split into sub-goals successively until the sub-goal can be directly supported by available evidence. Figure \ref{fig:gsn-example} 
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth ]{figures/gsn-example.png}
+    \centering
+    \caption{An example of a goal structure \cite{gsn2004Kelly}.}
+    \label{fig:gsn-example}
 \end{figure}
 \textcolor{red}{write about CAE(Claims Arguments Evidence)}
