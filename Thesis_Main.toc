@@ -2,6 +2,8 @@
 \contentsline {chapter}{Notation, Definitions, and Abbreviations}{v}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Machine Learning}{4}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Safety and assurance}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Literature Review}{9}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{10}{chapter.5}%
+\contentsline {chapter}{\numberline {3}Safety and assurance}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Safety Assurance Case}{8}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Goal Structuring Notation}{9}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Literature Review}{11}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{13}{chapter.5}%

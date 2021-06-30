@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{iso15026-1-2019}
+{15026-1-2019 - ISO/IEC/IEEE International Standard - Systems and software
+  engineering--Systems and software assurance --Part 1:Concepts and
+  vocabulary}.
+\newblock {\em ISO/IEC/IEEE 15026-1:2019(E)}, pages 1--38, 2019.
+
 \bibitem{Abadi}
 Mart{\'{i}}n Abadi, Michael Isard, and Derek G~Murray {Google Brain}.
 \newblock {A Computational Model for TensorFlow An Introduction}.
@@ -70,6 +76,11 @@ Barry Boehm and Wilfred~J Hansen.
   Development Workshop February 9, 2000}.
 \newblock Technical report, 2000.
 
+\bibitem{Burton}
+Simon Burton, Lydia Gauerhof, and Christian Heinzemann.
+\newblock {Making the Case for Safety of Machine Learning in Highly Automated
+  Driving}.
+
 \bibitem{IanGoodfellow2016}
 Ian~Goodfellow Courville, Yoshua Bengio, and Aaron.
 \newblock {\em {Deep learning}}, volume~29.
@@ -79,6 +90,11 @@ Ian~Goodfellow Courville, Yoshua Bengio, and Aaron.
 R.~A. FISHER.
 \newblock {THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC PROBLEMS}.
 \newblock {\em Ann. Eugen.}, 7(2):179--188, sep 1936.
+
+\bibitem{organization2018iso}
+International~Organization for Standardization.
+\newblock {\em {ISO 26262: Road Vehicles : Functional Safety}}.
+\newblock ISO, 2018.
 
 \bibitem{Foster2014}
 Kenneth~R Foster, Robert Koprowski, and Joseph~D Skufca.
@@ -96,6 +112,10 @@ Dan Hendrycks and Thomas Dietterich.
 \newblock {Benchmarking Neural Network Robustness to Common Corruptions and
   Perturbations}.
 \newblock {\em arXiv}, mar 2019.
+
+\bibitem{gsn2004Kelly}
+Tim Kelly and Rob Weaver.
+\newblock {The Goal Structuring Notation-A Safety Argument Notation}.
 
 \bibitem{koopman2016challenges}
 Philip Koopman and Michael Wagner.

@@ -1,16 +1,36 @@
 \chapter{Safety and assurance}
+Safety is often defined as \cite{organization2018iso}:
+\begin{quotation}
+Absence of unreasonable risk.
+\end{quotation}  
+An unreasonable risk is a \cite{organization2018iso}:
+\begin{quotation}
+Risk judged to be unacceptable in a certain context according to valid societal moral concepts.
+\end{quotation}
+Various safety standards have been developed for different industries and activities. Some examples are ISO 26262 for functional safety of road vehicles, DO-178C for aerospace industry, ISO 8124 for safety of toys, ISO 7164 for healthcare organization management.
 
-In \cite{Amodei}, five major research problems associated with unsafe behavior of ML models is presented. They can be summarized as
-\begin{enumerate}
-	\item Avoiding Negative Side Effects: How to ensure that the model will not disturb the environment while pursuing its goals, e.g. can a cleaning robot knock over a vase because it can clean faster by doing so? Can we do this without manually specifying everything the robot should not disturb \cite{Amodei}?
-	
-	\item Avoiding Reward Hacking: How to ensure that the model does not avoid situations to achieve a higher reward. For example, if we reward the robot for achieving an environment free of messes, it might disable its vision so that it won’t find any messes, or cover over messes with materials it can’t see through, or simply hide when humans are around so they can’t tell it about new types of messes \cite{Amodei}. 
-	
-	\item Scalable Oversight: How to ensure the model respects the parts of the objective function that are expensive to evaluate and makes a safe approximation of these parts. 
-	For example, in the cleaning robot example, if the user is happy with the cleaning quality is an expensive objective function, but it can be approximated to presence of any dirt on the floor when the user arrives \cite{Amodei}. 
-	
-	\item Safe Exploration: How to ensure that the ML model explorations are safe. For example, the robot should experiment with mopping strategies, but putting a wet mop in an electrical outlet is a very bad idea \cite{Amodei}. 
-	
-	\item Robustness to Distributional Shift: How to ensure that the model performs robustly if the environment shifts from the training environment. For example, strategies a cleaning robot learns for cleaning an office might be dangerous on a factory work-floor \cite{Amodei}.
+\section{Safety Assurance Case}
+A safety assurance case \textcolor{red}{(Assurance case in short)} justifies safety of a system by bringing a valid argument that a set of claims are justified, given that a set of assumptions are fulfilled \cite{Burton}. The purpose of using an assurance case is to communicate a clear, comprehensive, defensible argument that a system is safe to be used in a particular context \cite{gsn2004Kelly} Assurance cases are comprised of five basic components: claims, arguments, evidence, justifications and assumptions. The most common use of assurance cases is to give assurance about system's functionality and properties to the parties which were not involved in the process of developing the system \cite{iso15026-1-2019}.
 
-\end{enumerate}
+Assurance cases reason in a subjective manner, as compared to the logical proofs which consider an absolute truth. In other words, assurance cases are useful because the full range of a system's properties are not always representable in a logical formalization. Also, assurance cases may sometimes be disproved because the underlying logical theory used in them is not relevant \cite{iso15026-1-2019}.
+
+Since assurance cases are considered artefacts, they inherit quality related properties of them such as: the structure of its content, semantic features such as completeness, creation and maintenance. The conclusions of the assurance case should also be stated clearly with clear level of uncertainty \cite{iso15026-1-2019}. \textcolor{red}{more from 15020 about assurance cases?}
+
+\section{Goal Structuring Notation}
+When the safety assurance case is more complex in nature, textual representation suffers to express the case in a clear and understandable way. Figure \ref{fig:text-case} shows an example of such problem where the English structure of the argument is hard to understand. Having multiple cross references is specially difficult to capture in text \cite{gsn2004Kelly}.
+\begin{figure}
+    \includegraphics[width=0.5\linewidth ]{figures/textual_case.png}
+    \centering
+    \caption{Problems associated with textual representation \cite{gsn2004Kelly}.}
+    \label{fig:text-case}
+\end{figure}
+
+The Goal Structuring Notation(GSN) is a graphical notation for safety argumentation. A GSN explicitly represents elements of a safety argument and the relationships among these components. For example, how requirements are supported by claims or how claims are supported by evidence or how the case has a defined context \cite{gsn2004Kelly}. Figure \ref{fig:gsn} depicts basic building blocks of 
+
+\begin{figure}
+    \includegraphics[width=0.5\linewidth ]{figures/gsn.png}
+    \centering
+    \caption{Basic elements of a GSN \cite{gsn2004Kelly}.}
+    \label{fig:gsn}
+\end{figure}
+\textcolor{red}{write about CAE(Claims Arguments Evidence)}

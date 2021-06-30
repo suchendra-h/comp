@@ -19,6 +19,8 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 Database file #1: library.bib
 Database file #2: references_another.bib
+Warning--to sort, need author or key in iso15026-1-2019
+Warning--empty author in iso15026-1-2019
 Warning--empty journal in Abadi
 Warning--empty year in Abadi
 Warning--empty institution in Al-Rfou
@@ -26,50 +28,54 @@ Warning--empty year in Al-Rfou
 Warning--empty institution in Amodei
 Warning--empty year in Amodei
 Warning--empty institution in Boehm2000
+Warning--empty journal in Burton
+Warning--empty year in Burton
 Warning--can't use both volume and number fields in IanGoodfellow2016
 Warning--empty institution in Foster2014
+Warning--empty journal in gsn2004Kelly
+Warning--empty year in gsn2004Kelly
 Warning--empty institution in koopman2016challenges
 Warning--empty institution in Omg2010
 Warning--empty institution in Schwalbe2020
-You've used 20 entries,
+You've used 24 entries,
             2118 wiz_defined-function locations,
-            627 strings with 9848 characters,
-and the built_in function-call counts, 9262 in all, are:
-= -- 791
-> -- 845
-< -- 3
-+ -- 336
-- -- 316
-* -- 835
-:= -- 1690
-add.period$ -- 62
-call.type$ -- 20
-change.case$ -- 222
+            644 strings with 10422 characters,
+and the built_in function-call counts, 10259 in all, are:
+= -- 883
+> -- 884
+< -- 4
++ -- 352
+- -- 328
+* -- 897
+:= -- 1851
+add.period$ -- 71
+call.type$ -- 24
+change.case$ -- 239
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 215
-empty$ -- 433
-format.name$ -- 316
-if$ -- 1734
+cite$ -- 42
+duplicate$ -- 263
+empty$ -- 517
+format.name$ -- 328
+if$ -- 1942
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 15
-newline$ -- 101
-num.names$ -- 40
-pop$ -- 232
+int.to.str$ -- 24
+missing$ -- 20
+newline$ -- 118
+num.names$ -- 46
+pop$ -- 263
 preamble$ -- 1
-purify$ -- 198
+purify$ -- 212
 quote$ -- 0
-skip$ -- 142
+skip$ -- 174
 stack$ -- 0
-substring$ -- 262
-swap$ -- 27
-text.length$ -- 3
+substring$ -- 301
+swap$ -- 34
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 74
-warning$ -- 12
-while$ -- 56
-width$ -- 22
-write$ -- 207
-(There were 12 warnings)
+type$ -- 88
+warning$ -- 18
+while$ -- 65
+width$ -- 26
+write$ -- 240
+(There were 18 warnings)

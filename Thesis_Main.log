@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  28 JUN 2021 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  30 JUN 2021 12:33
 entering extended mode
 **"c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex"
 (c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex
@@ -433,7 +433,15 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 32.
  (abstr.tex) [1
 
 
-] (Thesis_Main.toc)
+] (Thesis_Main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+ (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+ (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write4
 \openout4 = `Thesis_Main.toc'.
 
@@ -441,15 +449,7 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 32.
 
 
 
-] (Thesis_Main.lof
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
- (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
- (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+] (Thesis_Main.lof)
 \tf@lof=\write5
 \openout5 = `Thesis_Main.lof'.
 
@@ -484,7 +484,7 @@ Chapter 2.
 
 
 ] [5]
-<figures/crossv.png, id=140, 547.44525pt x 308.95425pt>
+<figures/crossv.png, id=156, 547.44525pt x 308.95425pt>
 File: figures/crossv.png Graphic file (type png)
 <use figures/crossv.png>
 Package pdftex.def Info: figures/crossv.png  used on input line 25.
@@ -494,56 +494,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--47
 
  []
 
-[6 <./figures/crossv.png>]
+[6 <./figures/crossv.png>] [7]
 \openout2 = `chapter_3.aux'.
 
  (chapter_3.tex
 Chapter 3.
-[7
-
-
-
-
-]) [8]
-\openout2 = `chapter_4.aux'.
-
- (chapter_4.tex
-Chapter 4.
-) [9
+[8
 
 
 
 
 ]
+<figures/textual_case.png, id=187, 294.50024pt x 153.57375pt>
+File: figures/textual_case.png Graphic file (type png)
+<use figures/textual_case.png>
+Package pdftex.def Info: figures/textual_case.png  used on input line 22.
+(pdftex.def)             Requested size: 216.81pt x 113.06398pt.
+ [9]
+<figures/gsn.png, id=198, 279.444pt x 181.8795pt>
+File: figures/gsn.png Graphic file (type png)
+<use figures/gsn.png>
+Package pdftex.def Info: figures/gsn.png  used on input line 31.
+(pdftex.def)             Requested size: 216.81pt x 141.1161pt.
+) [10 <./figures/textual_case.png> <./figures/gsn.png>]
+\openout2 = `chapter_4.aux'.
+
+ (chapter_4.tex
+Chapter 4.
+[11
+
+
+
+
+]) [12]
 \openout2 = `conclusion.aux'.
 
  (conclusion.tex
 Chapter 5.
-) [10
+) [13
 
 
 
 
-] (Thesis_Main.bbl [11
+] (Thesis_Main.bbl [14
 
 
 
-] [12] [13]) [14] (Thesis_Main.aux (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
+] [15] [16] [17]) [18] (Thesis_Main.aux (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
 Package rerunfilecheck Info: File `Thesis_Main.out' has not changed.
-(rerunfilecheck)             Checksum: 6C230F439F603C792E62A24206F72211;939.
+(rerunfilecheck)             Checksum: 5D35CAC649F06205E0F6A2059E4F2841;1289.
  ) 
 Here is how much of TeX's memory you used:
- 12541 strings out of 478840
- 193963 string characters out of 2846164
- 520757 words of memory out of 3000000
- 30199 multiletter control sequences out of 15000+600000
+ 12575 strings out of 478840
+ 194547 string characters out of 2846164
+ 520995 words of memory out of 3000000
+ 30219 multiletter control sequences out of 15000+600000
  411198 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,11n,77p,999b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,11n,77p,999b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis_Main.pdf (20 pages, 162718 bytes).
+Output written on Thesis_Main.pdf (24 pages, 250704 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 306 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
