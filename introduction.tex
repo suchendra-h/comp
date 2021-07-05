@@ -9,37 +9,11 @@ Despite the numerous research papers in this subject, there is still a need to d
 One major drawback in using ML algorithms is that they are often treated as a black box and hence, using safety procedures for these methods is sometimes inapplicable \cite{Schwalbe2020}. In a review of automotive software safety methods \cite{Salay2017}, an analysis of ISO-26262 part-6 methods was performed with respect to safety of ML models. This assessment shows that about 40\% of software safety methods do not apply to ML models \cite{Salay2017}.
 
 
-Safety specifications often assume that behaviour of a component is fully specified. Since the training sets used in ML methods are not necessarily complete, they violate this assumption, and some parts of the specification becomes not applicable to the ML components \cite{Salay2017}. 
+Safety specifications often assume that behavior of a component is fully specified. Since the training sets used in ML methods are not necessarily complete, they violate this assumption, and some parts of the specification becomes not applicable to the ML components \cite{Salay2017}. 
 Most widely used ML frameworks such as Tensorflow \cite{Abadi} and Theano \cite{Al-Rfou} employ a model driven approach in problem solving. Although model driven engineering approach has been successful in safety critical applications such as Automotive industry, the ML models cannot be guaranteed to operate in a safe manner. 
 
 There are two approaches with respect to ML and safety, first is to study safety of ML methods, algorithms, and processes and the second is to use ML methods to improve pre-existing safety assurance procedures.
 We will initially follow the first approach and review the literature for the methods applied to standardize and measure the safety of ML methods.
 
-% We will mainly consider two applications of ML, mobile health, and autonomous vehicles. ISO26262 and ISO/PAS 21448 are two main safety standards used for safety of electronic components \cite{Mohseni2020}.
-
 There are inherent performance metrics related to ML methods, such as accuracy and robustness, which can affect their applicability in safety critical applications. ML models can also be dependent to the domain they are trained \cite{Ganin2015}. In addition, other perturbations such as noise, natural and imaging artifacts can cause ML models to function less accurately \cite{Hendrycks2019}.
 
-Assurance cases have been successfully used in various industries to describe why a system can be trustfully used for a specific application \cite{Ashmore2021}.
-
-A recent definition of safety assurance case is described in \cite{Bloomfield2010} as
-
-
-\begin{displayquote}[][]
-"A structured argument, supported by a body of evidence, that provides a compelling, comprehensible and valid case that a system is safe for a given application in a given environment"
-\end{displayquote}
-
-
-A structured argument is a \cite{Omg2010}
-\begin{displayquote}[][]
-"connected series of statements or reasons intended to establish a position...; a process of reasoning."
-\end{displayquote}
-
-Reasons used in a structured argument can be considered as premises in logical terms and a conclusion can be drawn based on them. \cite{Omg2010}.  
-
-To obtain assurance for ML systems it is essential to understand the ML lifecycle. This lifecycle follows a spiral process model \cite{Boehm2000} and is comprised of four stages \cite{Ashmore2021} 
-\begin{itemize}
-    \item Data Management(DM)
-    \item Model Learning
-    \item Model Verification(MV)
-    \item Model Deployment
-\end{itemize}

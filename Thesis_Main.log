@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  30 JUN 2021 15:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  4 JUL 2021 23:16
 entering extended mode
 **"c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex"
 (c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex
@@ -356,7 +356,7 @@ Package csquotes Info: ... none found.
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count303
 \l__pdf_internal_box=\box62
-) (Thesis_Main.aux (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
+) (Thesis_Main.aux)
 \openout1 = `Thesis_Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -417,7 +417,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 31.
 LaTeX Info: Redefining \pageref on input line 31.
 LaTeX Info: Redefining \nameref on input line 31.
- (Thesis_Main.out) (Thesis_Main.out)
 \@outlinefile=\write3
 \openout3 = `Thesis_Main.out'.
 
@@ -433,15 +432,7 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 32.
  (abstr.tex) [1
 
 
-] (Thesis_Main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
- (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
- (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+]
 \tf@toc=\write4
 \openout4 = `Thesis_Main.toc'.
 
@@ -449,13 +440,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-] (Thesis_Main.lof)
+]
 \tf@lof=\write5
 \openout5 = `Thesis_Main.lof'.
 
  [3
 
-] (Thesis_Main.lot)
+]
 \tf@lot=\write6
 \openout6 = `Thesis_Main.lot'.
 
@@ -470,97 +461,316 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 39.
 
  (introduction.tex
 Chapter 1.
+
+Package natbib Warning: Citation `Foster2014' on page 1 undefined on input line 6.
+
+
+Package natbib Warning: Citation `Lessmann2015' on page 1 undefined on input line 6.
+
+
+Package natbib Warning: Citation `koopman2016challenges' on page 1 undefined on input line 6.
+
+
+Package natbib Warning: Citation `Berk2015' on page 1 undefined on input line 6.
+
+
+Package natbib Warning: Citation `Schwalbe2020' on page 1 undefined on input line 9.
+
+
+Package natbib Warning: Citation `Salay2017' on page 1 undefined on input line 9.
+
+
+Package natbib Warning: Citation `Salay2017' on page 1 undefined on input line 9.
+
 [1
 
 
-] [2]) [3]
+]
+
+Package natbib Warning: Citation `Salay2017' on page 2 undefined on input line 12.
+
+
+Package natbib Warning: Citation `Abadi' on page 2 undefined on input line 13.
+
+
+Package natbib Warning: Citation `Al-Rfou' on page 2 undefined on input line 13.
+
+
+Package natbib Warning: Citation `Ganin2015' on page 2 undefined on input line 18.
+
+
+Package natbib Warning: Citation `Hendrycks2019' on page 2 undefined on input line 18.
+
+) [2]
 \openout2 = `chapter_2.aux'.
 
  (chapter_2.tex
 Chapter 2.
-[4
+
+Package natbib Warning: Citation `IanGoodfellow2016' on page 3 undefined on input line 3.
 
 
+Package natbib Warning: Citation `mitchell1997machine' on page 3 undefined on input line 3.
 
 
-] [5]
-<figures/crossv.png, id=159, 547.44525pt x 308.95425pt>
-File: figures/crossv.png Graphic file (type png)
-<use figures/crossv.png>
-Package pdftex.def Info: figures/crossv.png  used on input line 25.
-(pdftex.def)             Requested size: 216.81pt x 122.3585pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 33--47
+Package natbib Warning: Citation `IanGoodfellow2016' on page 3 undefined on input line 8.
 
- []
 
-[6 <./figures/crossv.png>] [7]
-\openout2 = `chapter_3.aux'.
+Package natbib Warning: Citation `IanGoodfellow2016' on page 3 undefined on input line 8.
 
- (chapter_3.tex
-Chapter 3.
-[8
+[3
 
 
 
 
 ]
-<figures/textual_case.png, id=190, 294.50024pt x 153.57375pt>
+
+Package natbib Warning: Citation `IanGoodfellow2016' on page 4 undefined on input line 16.
+
+
+Package natbib Warning: Citation `sutton1992introduction' on page 4 undefined on input line 18.
+
+
+Package natbib Warning: Citation `sutton1992introduction' on page 4 undefined on input line 18.
+
+
+Package natbib Warning: Citation `Fischer1936Iris' on page 4 undefined on input line 22.
+
+
+Package natbib Warning: Citation `Fischer1936Iris' on page 4 undefined on input line 22.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+(C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+ (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [4]
+
+Package natbib Warning: Citation `IanGoodfellow2016' on page 5 undefined on input line 25.
+
+
+Package natbib Warning: Citation `bishop2006pattern' on page 5 undefined on input line 27.
+
+
+LaTeX Warning: Reference `fig:crossv' on page 5 undefined on input line 27.
+
+<figures/crossv.png, id=54, 547.44525pt x 308.95425pt>
+File: figures/crossv.png Graphic file (type png)
+<use figures/crossv.png>
+Package pdftex.def Info: figures/crossv.png  used on input line 30.
+(pdftex.def)             Requested size: 216.81pt x 122.3585pt.
+
+Package natbib Warning: Citation `bishop2006pattern' on page 5 undefined on input line 32.
+
+
+Package natbib Warning: Citation `bishop2006pattern' on page 5 undefined on input line 32.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 38--47
+
+ []
+
+[5] [6 <./figures/crossv.png>]
+\openout2 = `chapter_3.aux'.
+
+ (chapter_3.tex
+Chapter 3.
+
+Package natbib Warning: Citation `organization2018iso' on page 7 undefined on input line 5.
+
+
+Package natbib Warning: Citation `organization2018iso' on page 7 undefined on input line 9.
+
+
+Package natbib Warning: Citation `Ashmore2021' on page 7 undefined on input line 17.
+
+
+Package natbib Warning: Citation `Bloomfield2010' on page 7 undefined on input line 18.
+
+[7
+
+
+
+
+]
+
+Package natbib Warning: Citation `Omg2010' on page 8 undefined on input line 24.
+
+
+Package natbib Warning: Citation `Omg2010' on page 8 undefined on input line 28.
+
+
+Package natbib Warning: Citation `gsn2004Kelly' on page 8 undefined on input line 30.
+
+
+Package natbib Warning: Citation `iso15026-1-2019' on page 8 undefined on input line 30.
+
+
+Package natbib Warning: Citation `iso15026-1-2019' on page 8 undefined on input line 32.
+
+
+Package natbib Warning: Citation `iso15026-1-2019' on page 8 undefined on input line 34.
+
+[8]
+
+LaTeX Warning: Reference `fig:text-case' on page 9 undefined on input line 37.
+
+
+Package natbib Warning: Citation `gsn2004Kelly' on page 9 undefined on input line 37.
+
+<figures/textual_case.png, id=81, 294.50024pt x 153.57375pt>
 File: figures/textual_case.png Graphic file (type png)
 <use figures/textual_case.png>
-Package pdftex.def Info: figures/textual_case.png  used on input line 22.
+Package pdftex.def Info: figures/textual_case.png  used on input line 39.
 (pdftex.def)             Requested size: 216.81pt x 113.06398pt.
- [9]
-<figures/gsn.png, id=201, 279.444pt x 181.8795pt>
+
+Package natbib Warning: Citation `gsn2004Kelly' on page 9 undefined on input line 41.
+
+
+Package natbib Warning: Citation `gsn2004Kelly' on page 9 undefined on input line 41.
+
+
+Package natbib Warning: Citation `gsn2004Kelly' on page 9 undefined on input line 45.
+
+
+LaTeX Warning: Reference `fig:gsn' on page 9 undefined on input line 45.
+
+<figures/gsn.png, id=82, 279.444pt x 181.8795pt>
 File: figures/gsn.png Graphic file (type png)
 <use figures/gsn.png>
-Package pdftex.def Info: figures/gsn.png  used on input line 31.
+Package pdftex.def Info: figures/gsn.png  used on input line 48.
 (pdftex.def)             Requested size: 216.81pt x 141.1161pt.
-<figures/gsn-example.png, id=204, 652.839pt x 351.714pt>
+
+Package natbib Warning: Citation `gsn2004Kelly' on page 9 undefined on input line 50.
+
+
+Package natbib Warning: Citation `gsn2004Kelly' on page 9 undefined on input line 50.
+
+
+LaTeX Warning: Reference `fig:gsn-example' on page 9 undefined on input line 56.
+
+[9 <./figures/textual_case.png>]
+<figures/gsn-example.png, id=89, 652.839pt x 351.714pt>
 File: figures/gsn-example.png Graphic file (type png)
 <use figures/gsn-example.png>
-Package pdftex.def Info: figures/gsn-example.png  used on input line 39.
+Package pdftex.def Info: figures/gsn-example.png  used on input line 59.
 (pdftex.def)             Requested size: 390.25534pt x 210.25186pt.
-) [10 <./figures/textual_case.png> <./figures/gsn.png>] [11 <./figures/gsn-example.png>]
+
+
+Package natbib Warning: Citation `gsn2004Kelly' on page 10 undefined on input line 61.
+
+
+Package natbib Warning: Citation `gsn2004Kelly' on page 10 undefined on input line 61.
+
+
+Package natbib Warning: Citation `gsn2004Kelly' on page 10 undefined on input line 65.
+
+) [10 <./figures/gsn.png>] [11 <./figures/gsn-example.png>]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
+
+Package natbib Warning: Citation `Amodei' on page 12 undefined on input line 5.
+
+
+Package natbib Warning: Citation `Amodei' on page 12 undefined on input line 7.
+
+
+Package natbib Warning: Citation `Amodei' on page 12 undefined on input line 9.
+
+
+Package natbib Warning: Citation `Amodei' on page 12 undefined on input line 12.
+
 [12
 
 
 
 
-]) [13]
+]
+
+Package natbib Warning: Citation `Amodei' on page 13 undefined on input line 14.
+
+
+Package natbib Warning: Citation `Amodei' on page 13 undefined on input line 16.
+
+
+Package natbib Warning: Citation `Boehm2000' on page 13 undefined on input line 22.
+
+
+Package natbib Warning: Citation `Ashmore2021' on page 13 undefined on input line 22.
+
+[13]
+
+chapter_4.tex:34: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \\\textcolor
+                 {red}{Write more from \cite{Ashmore2021}}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package natbib Warning: Citation `Ashmore2021' on page 14 undefined on input line 34.
+
+
+Package natbib Warning: Citation `Ashmore2021' on page 14 undefined on input line 38.
+
+
+Package natbib Warning: Citation `Ashmore2021' on page 14 undefined on input line 41.
+
+
+Package natbib Warning: Citation `Ashmore2021' on page 14 undefined on input line 44.
+
+[14]) [15]
 \openout2 = `conclusion.aux'.
 
  (conclusion.tex
 Chapter 5.
-) [14
+) [16
 
 
 
 
-] (Thesis_Main.bbl [15
+]
+No file Thesis_Main.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+(Thesis_Main.aux (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
+
+LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-] [16] [17] [18]) [19] (Thesis_Main.aux (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
-Package rerunfilecheck Info: File `Thesis_Main.out' has not changed.
-(rerunfilecheck)             Checksum: 5D35CAC649F06205E0F6A2059E4F2841;1289.
+
+Package rerunfilecheck Warning: File `Thesis_Main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis_Main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  5332ABA30AAB4757334146E15CE104C6;2313.
  ) 
 Here is how much of TeX's memory you used:
- 12585 strings out of 478840
- 194772 string characters out of 2846164
- 521077 words of memory out of 3000000
- 30226 multiletter control sequences out of 15000+600000
- 411198 words of font info for 55 fonts, out of 8000000 for 9000
+ 12497 strings out of 478840
+ 192564 string characters out of 2846164
+ 516261 words of memory out of 3000000
+ 30179 multiletter control sequences out of 15000+600000
+ 411803 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,11n,77p,999b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,11n,77p,1002b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis_Main.pdf (25 pages, 345724 bytes).
+Output written on Thesis_Main.pdf (22 pages, 310056 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
