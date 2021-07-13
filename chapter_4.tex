@@ -25,23 +25,40 @@ To obtain assurance for ML systems it is essential to understand the ML lifecycl
 This stage involves collecting, preprocessing, augmenting and initial analysis of data. The training and validation datasets are also prepared in this step.
 From assurance perspective, the data collected in this step should be
 \begin{itemize}
-    \item Relevant
-    \item Complete
-    \item Balanced
-    \item Accurate 
-\end{itemize}
-
-\\\textcolor{red}{Write more from \cite{Ashmore2021}}
+    \item Relevant: The dataset should be relevant to the desired functionality of the final model. For example a dataset of handwritten letters in Japanese language cannot be used for English language. 
+    \item Complete: The features of a dataset should not have unintended correlations that can confuse the classifier. For example, if a classifier is trained on pictures of wolves and huskies, and all wolves have snow in the background, it may be concluded that snow in the background means a wolf \cite{Ribeiro2016}. In this case the dataset is not complete because it does not include pictures of wolves with different backgrounds.
+    \item Balanced: For classification problems, it can happen that one class has significantly more data-points in the training set than the others and thus, classifier has more exposure to that class. 
+    \item Accurate: This property considers factors like sensor accuracy, correctness of data collection and processing method. In the case of supervised learning, labels' accuracy is important. The data collection process should be documented to identify potential inaccuracies \cite{Ashmore2021}.
+\end{itemize} 
 
 \subsection{Model Learning}
-Selecting the type of the model, hyper-parameters, transfer learning and training the ML model with the train dataset obtained in previous stage.
-The final model should be performant, robust, reusable and interpretable. \\\textcolor{red}{Write more from \cite{Ashmore2021}}
+In this stage of the ML lifecycle, the type of the model and its hyper-parameters are selected. For some ML applications, the dataset is very large or the model structure is complex and therefore, the learning process needs considerable amount of computational power. In these cases, it is reasonable to take advantage of a previously trained model and adapt it to our needs by re-training only the parts that are different from the other application. This process is called \textit{transfer learning} \cite{IanGoodfellow2016}. If there is a need to do transfer learning, it will be decided at this stage and finally the learning process starts using the train dataset obtained in previous stage.
+In order to have a clear view of the model in safety related aspects, the final model should be \cite{Ashmore2021}  
+\begin{itemize}
+    \item Performant: As a requirement for a safer model, it should have a justifiable performance according to the measures introduced in \autoref{chap:ML}.
+    \item Robust: The model should be able to perform as well on the unseen data as the training data,i.e., generalizes well to be considered robust. Data augmentation is one of the techniques to increase generalization \cite{Ko2015}. 
+    \item Reusable: Using transfer learning can help to use the assurance evidence of the original model, provided that the transfer learning is performed in the right context for the source and destination models. However, reusing models comes with the risk that safety issues propagates to the destination model too 
+    \item Interpretable: This property shows how much the decisions made by the model are explainable and thus helps to analyze the safety of such decisions. 
+\end{itemize}
 
-\subsection{Model Verification} 
-Making sure that the model works well on the data it has not seen before, also known as generalization. If the model fails in this stage, the process will go back to Data Management or Model Learning steps. Model verification involves requirements encoding, test-based verification and formal verification.\\\textcolor{red}{Write more from \cite{Ashmore2021}}
+\subsection{Model Verification and Validation} 
+The black swan problem expounds one of the major challenges in validating ML models. A system or a person could incorrectly conclude from abundance of training data samples that common observations are true \cite{koopman2016challenges}. A model which has only seen white swans, may infer that all swans are white and ignore the fact that there are black swans \cite{taleb2007the}. One major challenge is thus making sure that the model works well, i.e., satisfies its requirements, on the data it has not seen before which is also known as generalization. If the model fails in this stage, the process will go back to Data Management or Model Learning steps. Model verification involves requirements encoding, test-based verification and formal verification. The verification stage should be \cite{Ashmore2021}
+\begin{itemize}
+    \item Comprehensive: Model verification should ensure that all the requirements of the system and also intended goals of the previous stages of ML lifecycle, i.e., data management and model learning, are covered.
+    \item Contextually relevant: Verification process should be relevant to the intended use of the ML model. For example an ML model used in autonomous vehicles, we are more concerned about how changes in the environment will affect model's performance and thus, how robust is the model with changes in weather rather than the changes in image quality. 
+    \item Comprehensible: Verification results should be understandable for the users. Requirement violations should be clearly expressed in such a way that the cause of it can be identified and fixed \cite{Ashmore2021}. Ideally, the results should also include any black swan biases present in the model \cite{koopman2016challenges}.
+\end{itemize}
 
 \subsection{Model Deployment} 
-Preparing the ML model to be used in the final application. Activities in stage includes integration, monitoring and updating \\\textcolor{red}{Write more from \cite{Ashmore2021}}
+Preparing the ML model to be used in the final application. Activities in stage includes integration, monitoring and updating. To assure safety of this stage of ML lifecycle, the ML model should have the following properties
 
-The model should be fit for the purpose, tolerable and adaptable.
+\begin{itemize}
+    \item Fit-for-Purpose: The difference in hardware can cause performance differences between ML stages. Also, each distinct hardware setting where a model is deployed can affect model's performance. For a model to be fit for purpose, the performance seen in the previous stages should be carried over to the deployment phase. 
+    \item Tolerable: The system should be able to tolerate occasional incorrect outputs of the ML model. To accommodate this, the host system should be able to identify the incorrect outputs and to replace them with a safe value so that the system continues the normal processing activities.
+    \item Adaptable: Deployed models are in many cases needed to be updated due to variety of reasons including operational, legislative or environmental changes. This property indicates how safe is the process of updating. 
+\end{itemize}
+
 \section{Open challenges in ML assurance}
+Using an ML component in a system poses several challenges in each step of the ML lifecycle. In the data management step, further research is needed to guarantee security of data and its fitness for the purpose. Although a vast amount of research has been conducted in the model learning stage, there is still a need to further study hyper-parameter selection. In addition, with recent successes in transfer learning, there is still need for more research in assuring safety in this area. Furthermore, safety assurance requires ML models to be reusable and interpretable. Model verification assurance is mainly accomplished using test-based and verifications. However, there is still a need to develop methods to encode model requirements into proper and formal tests. In model deployment stage, there is no explicit equivalent for updating models in software engineering world, therefore, there is a need to devise assurance methods for adaptable safety-critical systems \cite{Ashmore2021}.
+
+In some applications requirements for a safe ML system reinforce each other. For example, accuracy in data management stage will most likely result in more performant model. However, in some cases, there is a trade-off between requirements, an explainable model is probably more exposable to cyberattack \cite{Ashmore2021}. In spite of attempts to address this issue \cite{Johnson2019}, more research is required to adapt these concepts to ML.  

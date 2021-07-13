@@ -76,11 +76,6 @@ Barry Boehm and Wilfred~J Hansen.
   Development Workshop February 9, 2000}.
 \newblock Technical report, 2000.
 
-\bibitem{Burton}
-Simon Burton, Lydia Gauerhof, and Christian Heinzemann.
-\newblock {Making the Case for Safety of Machine Learning in Highly Automated
-  Driving}.
-
 \bibitem{IanGoodfellow2016}
 Ian~Goodfellow Courville, Yoshua Bengio, and Aaron.
 \newblock {\em {Deep learning}}, volume~29.
@@ -113,9 +108,22 @@ Dan Hendrycks and Thomas Dietterich.
   Perturbations}.
 \newblock {\em arXiv}, mar 2019.
 
+\bibitem{Johnson2019}
+Nikita Johnson and Tim Kelly.
+\newblock {Devil's in the Detail: Through-Life Safety and Security Co-assurance
+  Using SSAF}.
+\newblock In Alexander Romanovsky, Elena Troubitsyna, and Friedemann Bitsch,
+  editors, {\em Comput. Safety, Reliab. Secur.}, pages 299--314, Cham, 2019.
+  Springer International Publishing.
+
 \bibitem{gsn2004Kelly}
 Tim Kelly and Rob Weaver.
 \newblock {The Goal Structuring Notation-A Safety Argument Notation}.
+
+\bibitem{Ko2015}
+Tom Ko, Vijayaditya Peddinti, Daniel Povey, and Sanjeev Khudanpur.
+\newblock {Audio Augmentation for Speech Recognition}.
+\newblock Technical report.
 
 \bibitem{koopman2016challenges}
 Philip Koopman and Michael Wagner.
@@ -141,6 +149,13 @@ Omg.
   Document Number Release Date}.
 \newblock Technical report, 2010.
 
+\bibitem{Ribeiro2016}
+Marco~Tulio Ribeiro, Sameer Singh, and Carlos Guestrin.
+\newblock {"Why Should I Trust You?" Explaining the Predictions of Any
+  Classifier}.
+\newblock In {\em Proc. 22nd ACM SIGKDD Int. Conf. Knowl. Discov. Data Min.},
+  New York, NY, USA. ACM.
+
 \bibitem{Salay2017}
 Rick Salay, Rodrigo Queiroz, and Krzysztof Czarnecki.
 \newblock {An Analysis of ISO 26262: Using Machine Learning Safely in
@@ -158,5 +173,10 @@ Gesina Schwalbe and Martin Schels.
 Richard~S Sutton.
 \newblock {Introduction: The challenge of reinforcement learning}.
 \newblock In {\em Reinf. Learn.}, pages 1--3. Springer, 1992.
+
+\bibitem{taleb2007the}
+Nassim Taleb.
+\newblock {\em {The black swan : the impact of the highly improbable}}.
+\newblock Random House, New York, 2007.
 
 \end{thebibliography}
