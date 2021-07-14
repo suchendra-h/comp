@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  13 JUL 2021 02:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  13 JUL 2021 21:47
 entering extended mode
 **"c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex"
 (c:/Users/Suchendra/OneDrive - McMaster University/PhD Thesis/Comp/Thesis_Template/Thesis_Main.tex
@@ -349,46 +349,52 @@ Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
  (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
-))
+)) (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip71
+\multirow@cntb=\count303
+\multirow@dima=\skip72
+\bigstrutjot=\dimen178
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
  (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count303
+\l__color_backend_stack_int=\count304
 \l__pdf_internal_box=\box62
 ) (Thesis_Main.aux (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
 \openout1 = `Thesis_Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
  (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count304
-\scratchdimen=\dimen178
+\scratchcounter=\count305
+\scratchdimen=\dimen179
 \scratchbox=\box63
-\nofMPsegments=\count305
-\nofMParguments=\count306
+\nofMPsegments=\count306
+\nofMParguments=\count307
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count307
-\MPscratchDim=\dimen179
-\MPnumerator=\count308
-\makeMPintoPDFobject=\count309
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen180
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
 \everyMPtoPDFconversion=\toks30
 ) (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -404,7 +410,7 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 31.
+Package hyperref Info: Link coloring OFF on input line 32.
  (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -412,16 +418,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\Suchendra\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count310
+\c@section@level=\count311
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
  (Thesis_Main.out) (Thesis_Main.out)
 \@outlinefile=\write3
 \openout3 = `Thesis_Main.out'.
 
-Package hyperref Info: Option `pageanchor' set `false' on input line 32.
+Package hyperref Info: Option `pageanchor' set `false' on input line 33.
  [1
 
 
@@ -462,7 +468,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  (notation.tex [5
 
 ])
-Package hyperref Info: Option `pageanchor' set `true' on input line 39.
+Package hyperref Info: Option `pageanchor' set `true' on input line 40.
  [6
 
 ]
@@ -483,84 +489,88 @@ Chapter 2.
 
 
 
-] [4]
-<figures/crossv.png, id=187, 547.44525pt x 308.95425pt>
+] [4] [5]
+<figures/crossv.png, id=201, 547.44525pt x 308.95425pt>
 File: figures/crossv.png Graphic file (type png)
 <use figures/crossv.png>
-Package pdftex.def Info: figures/crossv.png  used on input line 31.
+Package pdftex.def Info: figures/crossv.png  used on input line 34.
 (pdftex.def)             Requested size: 216.81pt x 122.3585pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-[5]) [6 <./figures/crossv.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 46.
+
+[6 <./figures/crossv.png>]) [7]
 \openout2 = `chapter_3.aux'.
 
  (chapter_3.tex
 Chapter 3.
-[7
+[8
 
 
 
 
-] [8]
-<figures/textual_case.png, id=230, 294.50024pt x 153.57375pt>
+] [9]
+<figures/textual_case.png, id=249, 294.50024pt x 153.57375pt>
 File: figures/textual_case.png Graphic file (type png)
 <use figures/textual_case.png>
-Package pdftex.def Info: figures/textual_case.png  used on input line 39.
+Package pdftex.def Info: figures/textual_case.png  used on input line 42.
 (pdftex.def)             Requested size: 216.81pt x 113.06398pt.
-<figures/gsn.png, id=235, 279.444pt x 181.8795pt>
+ [10 <./figures/textual_case.png>]
+<figures/gsn.png, id=258, 279.444pt x 181.8795pt>
 File: figures/gsn.png Graphic file (type png)
 <use figures/gsn.png>
-Package pdftex.def Info: figures/gsn.png  used on input line 48.
+Package pdftex.def Info: figures/gsn.png  used on input line 51.
 (pdftex.def)             Requested size: 216.81pt x 141.1161pt.
- [9 <./figures/textual_case.png>]
-<figures/gsn-example.png, id=243, 652.839pt x 351.714pt>
+<figures/gsn-example.png, id=262, 652.839pt x 351.714pt>
 File: figures/gsn-example.png Graphic file (type png)
 <use figures/gsn-example.png>
-Package pdftex.def Info: figures/gsn-example.png  used on input line 59.
+Package pdftex.def Info: figures/gsn-example.png  used on input line 62.
 (pdftex.def)             Requested size: 390.25534pt x 210.25186pt.
-) [10 <./figures/gsn.png>] [11 <./figures/gsn-example.png>]
+) [11 <./figures/gsn.png>] [12 <./figures/gsn-example.png>]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
-[12
+[13
 
 
 
 
-] [13] [14] [15] [16] [17]) [18]
+] [14] [15] [16] [17] [18]) [19]
 \openout2 = `conclusion.aux'.
 
  (conclusion.tex
 Chapter 5.
-) [19
+) [20
 
 
 
 
-] (Thesis_Main.bbl [20
+] (Thesis_Main.bbl [21
 
 
 
-] [21] [22] [23]) [24] (Thesis_Main.aux (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
+] [22] [23] [24]) [25] (Thesis_Main.aux (abstr.aux) (introduction.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (conclusion.aux))
 Package rerunfilecheck Info: File `Thesis_Main.out' has not changed.
 (rerunfilecheck)             Checksum: 63FE75FFB9C7F9D303E1125EA942638D;2471.
  ) 
 Here is how much of TeX's memory you used:
- 12620 strings out of 478840
- 195211 string characters out of 2846164
- 521167 words of memory out of 3000000
- 30240 multiletter control sequences out of 15000+600000
- 411803 words of font info for 57 fonts, out of 8000000 for 9000
+ 12701 strings out of 478840
+ 196504 string characters out of 2846164
+ 523191 words of memory out of 3000000
+ 30312 multiletter control sequences out of 15000+600000
+ 414722 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,11n,77p,1134b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Thesis_Main.pdf (31 pages, 369205 bytes).
+ <C:\Users\Suchendra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Suchendra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Thesis_Main.pdf (32 pages, 394468 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

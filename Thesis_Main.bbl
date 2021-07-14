@@ -76,6 +76,11 @@ Barry Boehm and Wilfred~J Hansen.
   Development Workshop February 9, 2000}.
 \newblock Technical report, 2000.
 
+\bibitem{Bradley1997}
+Andrew~E Bradley.
+\newblock {THE EVALUATION OF MACHINE LEARNING ALGORITHMS}.
+\newblock {\em Pattern Recognit.}, 30(7):1145--1159, 1997.
+
 \bibitem{IanGoodfellow2016}
 Ian~Goodfellow Courville, Yoshua Bengio, and Aaron.
 \newblock {\em {Deep learning}}, volume~29.

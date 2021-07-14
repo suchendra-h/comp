@@ -6,17 +6,17 @@
 \contentsline {section}{\numberline {2.2}Learning types}{4}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Data in ML}{5}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Performance measures}{6}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}No free lunch theorem}{6}{subsection.2.4.1}%
-\contentsline {chapter}{\numberline {3}Safety and assurance}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Definition}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Safety Assurance Case}{8}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Goal Structuring Notation}{9}{section.3.3}%
-\contentsline {section}{\numberline {3.4}An example of a GSN}{10}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Literature Review}{12}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Machine Learning lifecycle}{13}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Data Management}{13}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Model Learning}{14}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Model Verification and Validation}{15}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Model Deployment}{16}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Open challenges in ML assurance}{17}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{19}{chapter.5}%
+\contentsline {subsection}{\numberline {2.4.1}Loss function}{7}{subsection.2.4.1}%
+\contentsline {chapter}{\numberline {3}Safety and assurance}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Definition}{8}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Safety Assurance Case}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Goal Structuring Notation}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}An example of a GSN}{11}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Literature Review}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Machine Learning lifecycle}{14}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Data Management}{14}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Model Learning}{15}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Model Verification and Validation}{16}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Model Deployment}{17}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Open challenges in ML assurance}{18}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{20}{chapter.5}%

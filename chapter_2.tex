@@ -1,5 +1,8 @@
 \chapter{Machine Learning}
 \label{chap:ML}
+
+In this chapter we will start by definition of ML in the literature, and continue with definitions of learning categories such as supervised, unsupervised and reinforcement learning. Next, we explore how data is managed in a given ML problem. Finally, we review how performance of ML methods are measured.
+
 \section{Definition}
 Machine learning algorithms can extract patterns and learn from data \cite{IanGoodfellow2016}. A brief definition of learning can be given as \cite{mitchell1997machine}
 \begin{displayquote}[][]
@@ -37,4 +40,27 @@ In some cases, the training and test datasets might be limited in size and to ha
 \textcolor{red}{add about neural networks}\\
 
 \section{Performance measures}
-\subsection{No free lunch theorem}
+In classification tasks, \textit{confusion matrix} is a way to demonstrate differences between predicted and true classes \cite{Bradley1997}. Table \ref{tab:conf-mat} shows the structure of a confusion matrix.
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+    \centering
+    \begin{tabular}{llccll}
+                                &    & \multicolumn{2}{l}{Predicted Class} &    &  \\ \cline{3-4}
+                                &    & C-               & C+               &    &  \\ \hline
+    \multirow{2}{*}{True class} & C- & Tn               & Fp               & Cn &  \\
+                                & C+ & Fn               & Tp               & Cp &  \\
+                                &    & Rn               & Rp               & N  &  \\ \hline
+    \end{tabular}
+    \caption{A confusion matrix}
+    \label{tab:conf-mat}
+\end{table}
+
+In Table \ref{tab:conf-mat} \textit{Tp} and \textit{Tn} represent true positives and true negatives respectively. \textit{Fp} and \textit{Fn} are in the same manner the count of false positives and false negatives respectively. \textit{Cp} and \textit{Cn}, therefore, are the total number of positive and negative examples. Finally, \textit{Rp} and \textit{Rn} denote total number of predicted positives and negatives, respectively \cite{Bradley1997}.
+
+A variety of performance measures can be calculated from the confusion matrix, e.g., accuracy, precision, sensitivity and specificity \cite{Bradley1997}. Accuracy is often considered as a performance criteria which is simply the fraction of correctly classified samples to total samples, i.e., {\large $\frac{Tp + Tn}{N}$}. It is also possible to obtain the same information by calculating the \textit{error rate}.
+
+The Receiver Operating Characteristic (ROC) curve helps to find a pareto-optimal point between true and false positive rates as the decision threshold changes \cite{Bradley1997}. Each point on the curve represents the Tp (vertical axis) and Fp (horizontal axis) for a decision threshold. The area under ROC curve (AUC) is, therefore, a measure the sensitivity of the model to changes in operating conditions. If AUC value is at maximum, i.e., one, it can be concluded that the $P(Fp) = 0$ and $P(Tp) = 1$ even when the operating conditions change. 
+\subsection{Loss function}
+In some cases, the impact of misclassification is not the same for each class. For example, if a patient without cancer is classified as a cancer patient, there will be mental distress. However, if a cancer patient is diagnosed as healthy, the results could be premature death. A loss function is defined to penalize the second type of mis-classifications even if it is with the cost of having more errors in the other class \cite{bishop2006pattern}.
+% \subsection{No free lunch theorem}
