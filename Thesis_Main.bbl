@@ -6,48 +6,6 @@
   vocabulary}.
 \newblock {\em ISO/IEC/IEEE 15026-1:2019(E)}, pages 1--38, 2019.
 
-\bibitem{Abadi}
-Mart{\'{i}}n Abadi, Michael Isard, and Derek G~Murray {Google Brain}.
-\newblock {A Computational Model for TensorFlow An Introduction}.
-
-\bibitem{Al-Rfou}
-Rami Al-Rfou, Guillaume Alain, Amjad Almahairi, Christof Angermueller, Dzmitry
-  Bahdanau, Nicolas Ballas, Fr{\'{e}}d{\'{e}}ric Bastien, Justin Bayer, Anatoly
-  Belikov, Alexander Belopolsky, Yoshua Bengio, Arnaud Bergeron, James
-  Bergstra, Valentin Bisson, Josh~Bleecher Snyder, Nicolas Bouchard, Nicolas
-  Boulanger-Lewandowski, Xavier Bouthillier, Alexandre {De Br{\'{e}}bisson},
-  Olivier Breuleux, Pierre-Luc Carrier, Kyunghyun Cho, Jan Chorowski, Paul
-  Christiano, Tim Cooijmans, Marc-Alexandre C{\^{o}}t{\'{e}}, Myriam
-  C{\^{o}}t{\'{e}}, Aaron Courville, Yann~N Dauphin, Olivier Delalleau, Julien
-  Demouth, Guillaume Desjardins, Sander Dieleman, Laurent Dinh, M{\'{e}}lanie
-  Ducoffe, Vincent Dumoulin, Samira~Ebrahimi Kahou, Dumitru Erhan, Ziye Fan,
-  Orhan Firat, Mathieu Germain, Xavier Glorot, Ian Goodfellow, Matt Graham,
-  Caglar Gulcehre, Philippe Hamel, Iban Harlouchet, Jean-Philippe Heng,
-  Bal{\'{a}}zs Hidasi, Sina Honari, Arjun Jain, S{\'{e}}bastien Jean, Kai Jia,
-  Mikhail Korobov, Vivek Kulkarni, Alex Lamb, Pascal Lamblin, Eric Larsen,
-  C{\'{e}}sar Laurent, Sean Lee, Simon Lefrancois, Simon Lemieux, Nicholas
-  L{\'{e}}onard, Zhouhan Lin, Jesse~A Livezey, Cory Lorenz, Jeremiah Lowin,
-  Qianli Ma, Pierre-Antoine Manzagol, Olivier Mastropietro, Robert~T Mcgibbon,
-  Roland Memisevic, Bart {Van Merri{\"{e}}nboer}, Vincent Michalski, Mehdi
-  Mirza, Alberto Orlandi, Christopher Pal, Razvan Pascanu, Mohammad Pezeshki,
-  Colin Raffel, Daniel Renshaw, Matthew Rocklin, Adriana Romero, Markus Roth,
-  Peter Sadowski, John Salvatier, Fran{\c{c}}ois Savard, Jan Schl{\"{u}}ter,
-  John Schulman, Gabriel Schwartz, Iulian~Vlad Serban, Dmitriy Serdyuk, Samira
-  Shabanian, Etienne Simon, Sigurd Spieckermann, S~Ramana Subramanyam, Jakub
-  Sygnowski, J{\'{e}}r{\'{e}}mie Tanguay, Gijs {Van Tulder}, Joseph Turian,
-  Sebastian Urban, Pascal Vincent, Francesco Visin, Harm {De Vries}, David
-  Warde-Farley, Dustin~J Webb, Matthew Willson, Kelvin Xu, Lijun Xue, Li~Yao,
-  Saizheng Zhang, and Ying Zhang.
-\newblock {Theano: A Python framework for fast computation of mathematical
-  expressions (The Theano Development Team) *}.
-\newblock Technical report.
-
-\bibitem{Amodei}
-Dario Amodei, Chris Olah, Google Brain, Jacob Steinhardt, Paul Christiano, John
-  Schulman, Openai Dan, and Man{\'{e}} {Google Brain}.
-\newblock {Concrete Problems in AI Safety}.
-\newblock Technical report.
-
 \bibitem{Ashmore2021}
 Rob Ashmore, Radu Calinescu, and Colin Paterson.
 \newblock {Assuring the Machine Learning Lifecycle}.
@@ -78,7 +36,8 @@ Barry Boehm and Wilfred~J Hansen.
 
 \bibitem{Bradley1997}
 Andrew~E Bradley.
-\newblock {THE EVALUATION OF MACHINE LEARNING ALGORITHMS}.
+\newblock {The Use of the Area Under the ROC Curve in the Evaluation of Machine
+  Learning Algorithms}.
 \newblock {\em Pattern Recognit.}, 30(7):1145--1159, 1997.
 
 \bibitem{IanGoodfellow2016}
@@ -86,9 +45,14 @@ Ian~Goodfellow Courville, Yoshua Bengio, and Aaron.
 \newblock {\em {Deep learning}}, volume~29.
 \newblock MIT Press, 2016.
 
+\bibitem{Amodei2016}
+{Dario Amodei et al.}
+\newblock {Concrete Problems in AI Safety}.
+\newblock jun 2016.
+
 \bibitem{Fischer1936Iris}
-R.~A. FISHER.
-\newblock {THE USE OF MULTIPLE MEASUREMENTS IN TAXONOMIC PROBLEMS}.
+R.~A. Fisher.
+\newblock {The Use of Multiple Measurments in Taxonomic Problems}.
 \newblock {\em Ann. Eugen.}, 7(2):179--188, sep 1936.
 
 \bibitem{organization2018iso}
@@ -117,8 +81,7 @@ Dan Hendrycks and Thomas Dietterich.
 Nikita Johnson and Tim Kelly.
 \newblock {Devil's in the Detail: Through-Life Safety and Security Co-assurance
   Using SSAF}.
-\newblock In Alexander Romanovsky, Elena Troubitsyna, and Friedemann Bitsch,
-  editors, {\em Comput. Safety, Reliab. Secur.}, pages 299--314, Cham, 2019.
+\newblock In {\em Comput. Safety, Reliab. Secur.}, pages 299--314, Cham, 2019.
   Springer International Publishing.
 
 \bibitem{gsn2004Kelly}
@@ -141,6 +104,12 @@ Stefan Lessmann, Bart Baesens, Hsin-Vonn Seow, and Lyn~C Thomas.
   scoring: An update of research}.
 \newblock {\em Eur. J. Oper. Res.}, 247:124--136, 2015.
 
+\bibitem{Abadi2016Tensor}
+{Mart{\'{i}}n Abadi et al.}
+\newblock {TensorFlow: Large-Scale Machine Learning on Heterogeneous
+  Distributed Systems}.
+\newblock www.tensorflow.org, 2015.
+
 \bibitem{mitchell1997machine}
 T~M Mitchell.
 \newblock {\em {Machine Learning}}.
@@ -148,11 +117,9 @@ T~M Mitchell.
   McGraw-Hill Education, 1997.
 
 \bibitem{Omg2010}
-Omg.
-\newblock {An OMG{\textregistered} Structured Assurance Case Metamodel TM
-  Publication Structured Assurance Case Metamodel (SACM) Version 2.1 OMG
-  Document Number Release Date}.
-\newblock Technical report, 2010.
+{Object Management Group}.
+\newblock {Structured Assurance Case Metamodel (SACM)}.
+\newblock https://www.omg.org/spec/SACM/2.1/PDF, 2010.
 
 \bibitem{Ribeiro2016}
 Marco~Tulio Ribeiro, Sameer Singh, and Carlos Guestrin.
@@ -169,10 +136,8 @@ Rick Salay, Rodrigo Queiroz, and Krzysztof Czarnecki.
 \bibitem{Schwalbe2020}
 Gesina Schwalbe and Martin Schels.
 \newblock {A Survey on Methods for the Safety Assurance of Machine Learning
-  Based Systems A Survey on Methods for the Safety Assurance of Machine
-  Learning Based Systems. 10th European Congress on Embedded Real Time Software
-  and Systems (ERTS A Survey on Methods for }.
-\newblock Technical report, 2020.
+  Based Systems}.
+\newblock 2020.
 
 \bibitem{sutton1992introduction}
 Richard~S Sutton.
@@ -183,5 +148,11 @@ Richard~S Sutton.
 Nassim Taleb.
 \newblock {\em {The black swan : the impact of the highly improbable}}.
 \newblock Random House, New York, 2007.
+
+\bibitem{Al-Rfou}
+{The Theano Development Team}.
+\newblock {Theano: A Python framework for fast computation of mathematical
+  expressions}.
+\newblock https://github.com/Theano/Theano, 2016.
 
 \end{thebibliography}

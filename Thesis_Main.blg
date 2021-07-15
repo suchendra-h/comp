@@ -19,62 +19,56 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: library.bib
 Warning--to sort, need author or key in iso15026-1-2019
 Warning--empty author in iso15026-1-2019
-Warning--empty journal in Abadi
-Warning--empty year in Abadi
-Warning--empty institution in Al-Rfou
-Warning--empty year in Al-Rfou
-Warning--empty institution in Amodei
-Warning--empty year in Amodei
 Warning--empty institution in Boehm2000
 Warning--can't use both volume and number fields in IanGoodfellow2016
+Warning--empty journal in Amodei2016
 Warning--empty institution in Foster2014
 Warning--empty journal in gsn2004Kelly
 Warning--empty year in gsn2004Kelly
 Warning--empty institution in Ko2015
 Warning--empty year in Ko2015
 Warning--empty institution in koopman2016challenges
-Warning--empty institution in Omg2010
 Warning--empty year in Ribeiro2016
-Warning--empty institution in Schwalbe2020
+Warning--empty booktitle in Schwalbe2020
 You've used 28 entries,
             2118 wiz_defined-function locations,
-            672 strings with 11109 characters,
-and the built_in function-call counts, 11659 in all, are:
-= -- 1025
-> -- 945
+            674 strings with 8357 characters,
+and the built_in function-call counts, 7937 in all, are:
+= -- 784
+> -- 331
 < -- 5
-+ -- 375
-- -- 347
-* -- 990
-:= -- 2081
-add.period$ -- 86
++ -- 132
+- -- 104
+* -- 484
+:= -- 1339
+add.period$ -- 87
 call.type$ -- 28
-change.case$ -- 259
+change.case$ -- 135
 chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 321
-empty$ -- 632
-format.name$ -- 347
-if$ -- 2244
+cite$ -- 41
+duplicate$ -- 323
+empty$ -- 663
+format.name$ -- 104
+if$ -- 1668
 int.to.chr$ -- 0
 int.to.str$ -- 28
-missing$ -- 24
-newline$ -- 139
-num.names$ -- 56
-pop$ -- 289
+missing$ -- 25
+newline$ -- 140
+num.names$ -- 54
+pop$ -- 180
 preamble$ -- 1
-purify$ -- 228
+purify$ -- 108
 quote$ -- 0
-skip$ -- 208
+skip$ -- 219
 stack$ -- 0
 substring$ -- 384
-swap$ -- 47
+swap$ -- 51
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 102
-warning$ -- 19
-while$ -- 79
+warning$ -- 13
+while$ -- 78
 width$ -- 30
-write$ -- 288
-(There were 19 warnings)
+write$ -- 291
+(There were 13 warnings)
