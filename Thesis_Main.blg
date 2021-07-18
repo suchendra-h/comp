@@ -17,58 +17,70 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 8 items.
 Database file #1: library.bib
+Repeated entry---line 325 of file library.bib
+ : @article{Wang2019
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in iso15026-1-2019
 Warning--empty author in iso15026-1-2019
 Warning--empty institution in Boehm2000
+Warning--empty institution in Chen2017
+Warning--empty year in Chen2017
+Warning--empty journal in FairML2018
 Warning--can't use both volume and number fields in IanGoodfellow2016
 Warning--empty journal in Amodei2016
+Warning--empty institution in pytorch2019
 Warning--empty institution in Foster2014
 Warning--empty journal in gsn2004Kelly
 Warning--empty year in gsn2004Kelly
 Warning--empty institution in Ko2015
 Warning--empty year in Ko2015
 Warning--empty institution in koopman2016challenges
+Warning--empty journal in Laciok2021
 Warning--empty year in Ribeiro2016
+Warning--empty journal in Wang2019
 Warning--empty booktitle in Schwalbe2020
-You've used 28 entries,
+Warning--empty journal in Teramoto
+Warning--empty year in Teramoto
+You've used 46 entries,
             2118 wiz_defined-function locations,
-            674 strings with 8357 characters,
-and the built_in function-call counts, 7937 in all, are:
-= -- 784
-> -- 331
-< -- 5
-+ -- 132
-- -- 104
-* -- 484
-:= -- 1339
-add.period$ -- 87
-call.type$ -- 28
-change.case$ -- 135
+            786 strings with 11877 characters,
+and the built_in function-call counts, 14380 in all, are:
+= -- 1396
+> -- 714
+< -- 7
++ -- 284
+- -- 238
+* -- 993
+:= -- 2447
+add.period$ -- 141
+call.type$ -- 46
+change.case$ -- 258
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 323
-empty$ -- 663
-format.name$ -- 104
-if$ -- 1668
+cite$ -- 67
+duplicate$ -- 535
+empty$ -- 1096
+format.name$ -- 238
+if$ -- 2948
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 25
-newline$ -- 140
-num.names$ -- 54
-pop$ -- 180
+int.to.str$ -- 46
+missing$ -- 41
+newline$ -- 229
+num.names$ -- 90
+pop$ -- 301
 preamble$ -- 1
-purify$ -- 108
+purify$ -- 211
 quote$ -- 0
-skip$ -- 219
+skip$ -- 365
 stack$ -- 0
-substring$ -- 384
-swap$ -- 51
-text.length$ -- 5
+substring$ -- 743
+swap$ -- 83
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 102
-warning$ -- 13
-while$ -- 78
-width$ -- 30
-write$ -- 291
-(There were 13 warnings)
+type$ -- 174
+warning$ -- 21
+while$ -- 136
+width$ -- 48
+write$ -- 476
+(There was 1 error message)

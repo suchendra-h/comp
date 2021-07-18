@@ -6,15 +6,40 @@
   vocabulary}.
 \newblock {\em ISO/IEC/IEEE 15026-1:2019(E)}, pages 1--38, 2019.
 
+\bibitem{smartphone2012}
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra, and Jorge~L.
+  Reyes-Ortiz.
+\newblock {Human Activity Recognition on Smartphones Using a Multiclass
+  Hardware-Friendly Support Vector Machine}.
+\newblock {\em Lect. Notes Comput. Sci. (including Subser. Lect. Notes Artif.
+  Intell. Lect. Notes Bioinformatics)}, 7657 LNCS:216--223, 2012.
+
 \bibitem{Ashmore2021}
 Rob Ashmore, Radu Calinescu, and Colin Paterson.
 \newblock {Assuring the Machine Learning Lifecycle}.
 \newblock {\em ACM Comput. Surv.}, 54(5):1--39, may 2021.
 
+\bibitem{Aydin2019}
+Burchan Aydin.
+\newblock {Public acceptance of drones: Knowledge, attitudes, and practice}.
+\newblock {\em Technol. Soc.}, 59:101180, nov 2019.
+
 \bibitem{Berk2015}
 Richard Berk and Jordan Hyatt.
 \newblock {Machine Learning Forecasts of Risk to Inform Sentencing Decisions}.
 \newblock {\em Source Fed. Sentencing Report.}, 27(4):222--228, 2015.
+
+\bibitem{QuantumML2017}
+Jacob Biamonte, Peter Wittek, Nicola Pancotti, Patrick Rebentrost, Nathan
+  Wiebe, and Seth Lloyd.
+\newblock {Quantum machine learning}.
+\newblock {\em Nature}, 549(7671):195--202, sep 2017.
+
+\bibitem{bilal2020}
+Muhammad Bilal and Lukumon~O. Oyedele.
+\newblock {Guidelines for applied machine learning in construction industry—A
+  case of profit margins estimation}.
+\newblock {\em Adv. Eng. Informatics}, 43:101013, jan 2020.
 
 \bibitem{bishop2006pattern}
 C~M Bishop.
@@ -40,6 +65,18 @@ Andrew~E Bradley.
   Learning Algorithms}.
 \newblock {\em Pattern Recognit.}, 30(7):1145--1159, 1997.
 
+\bibitem{Chen2017}
+Xinyun Chen, Chang Liu, Bo~Li, Kimberly Lu, and Dawn Song.
+\newblock {Targeted Backdoor Attacks on Deep Learning Systems Using Data
+  Poisoning}.
+\newblock Technical report.
+
+\bibitem{FairML2018}
+Sam Corbett-Davies and Sharad Goel.
+\newblock {The Measure and Mismeasure of Fairness: A Critical Review of Fair
+  Machine Learning}.
+\newblock jul 2018.
+
 \bibitem{IanGoodfellow2016}
 Ian~Goodfellow Courville, Yoshua Bengio, and Aaron.
 \newblock {\em {Deep learning}}, volume~29.
@@ -49,6 +86,28 @@ Ian~Goodfellow Courville, Yoshua Bengio, and Aaron.
 {Dario Amodei et al.}
 \newblock {Concrete Problems in AI Safety}.
 \newblock jun 2016.
+
+\bibitem{Egert2020}
+Melissa Egert, James~E. Steward, and Chandru~P. Sundaram.
+\newblock {Machine Learning and Artificial Intelligence in Surgical Fields}.
+\newblock {\em Indian J. Surg. Oncol. 2020 114}, 11(4):573--577, jul 2020.
+
+\bibitem{Quantum_sup}
+Frank et~al. Arute.
+\newblock {Quantum supremacy using a programmable superconducting processor}.
+\newblock {\em Nat. 2019 5747779}, 574(7779):505--510, oct 2019.
+
+\bibitem{Federated2019}
+Peter et~al. Kairouz.
+\newblock {Advances and Open Problems in Federated Learning}.
+\newblock {\em Found. Trends{\textregistered} Mach. Learn.}, 14(1–2):1--210,
+  dec 2019.
+
+\bibitem{pytorch2019}
+Adam et~al. Paszke.
+\newblock {PyTorch: An Imperative Style, High-Performance Deep Learning
+  Library}.
+\newblock Technical report, 2019.
 
 \bibitem{Fischer1936Iris}
 R.~A. Fisher.
@@ -77,6 +136,19 @@ Dan Hendrycks and Thomas Dietterich.
   Perturbations}.
 \newblock {\em arXiv}, mar 2019.
 
+\bibitem{Caffe2014}
+Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross
+  Girshick, Sergio Guadarrama, and Trevor Darrell.
+\newblock {Caffe: Convolutional Architecture for Fast Feature Embedding}.
+\newblock {\em MM 2014 - Proc. 2014 ACM Conf. Multimed.}, pages 675--678, jun
+  2014.
+
+\bibitem{iot_apps_conf}
+Mansi Jindal, Jatin Gupta, and Bharat Bhushan.
+\newblock {Machine learning methods for IoT and their Future Applications}.
+\newblock {\em Proc. - 2019 Int. Conf. Comput. Commun. Intell. Syst. ICCCIS
+  2019}, 2019-January:430--434, oct 2019.
+
 \bibitem{Johnson2019}
 Nikita Johnson and Tim Kelly.
 \newblock {Devil's in the Detail: Through-Life Safety and Security Co-assurance
@@ -98,11 +170,25 @@ Philip Koopman and Michael Wagner.
 \newblock {Challenges in Autonomous Vehicle Testing and Validation}.
 \newblock Technical report, 2016.
 
+\bibitem{Laciok2021}
+Vendula Laciok, Katerina Sikorova, Bruno Fabiano, and Ales Bernatik.
+\newblock {Trends and Opportunities of Tertiary Education in Safety Engineering
+  Moving towards Safety 4.0}.
+\newblock 2021.
+
 \bibitem{Lessmann2015}
 Stefan Lessmann, Bart Baesens, Hsin-Vonn Seow, and Lyn~C Thomas.
 \newblock {Benchmarking state-of-the-art classification algorithms for credit
   scoring: An update of research}.
 \newblock {\em Eur. J. Oper. Res.}, 247:124--136, 2015.
+
+\bibitem{Levinson2011}
+Jesse Levinson, Jake Askeland, Jan Becker, Jennifer Dolson, David Held, Soeren
+  Kammel, J.~Zico Kolter, Dirk Langer, Oliver Pink, Vaughan Pratt, Michael
+  Sokolsky, Ganymed Stanek, David Stavens, Alex Teichman, Moritz Werling, and
+  Sebastian Thrun.
+\newblock {Towards fully autonomous driving: Systems and algorithms}.
+\newblock In {\em IEEE Intell. Veh. Symp. Proc.}, pages 163--168, 2011.
 
 \bibitem{Abadi2016Tensor}
 {Mart{\'{i}}n Abadi et al.}
@@ -128,6 +214,18 @@ Marco~Tulio Ribeiro, Sameer Singh, and Carlos Guestrin.
 \newblock In {\em Proc. 22nd ACM SIGKDD Int. Conf. Knowl. Discov. Data Min.},
   New York, NY, USA. ACM.
 
+\bibitem{Russel2018}
+Cindy~L. Russell.
+\newblock {5 G wireless telecommunications expansion: Public health and
+  environmental implications}.
+\newblock {\em Environ. Res.}, 165:484--495, aug 2018.
+
+\bibitem{Wang2019}
+Stuart Russell, Daniel Dewey, and Max Tegmark.
+\newblock {Research Priorities for Robust and Beneficial Artificial
+  Intelligence}.
+\newblock 2015.
+
 \bibitem{Salay2017}
 Rick Salay, Rodrigo Queiroz, and Krzysztof Czarnecki.
 \newblock {An Analysis of ISO 26262: Using Machine Learning Safely in
@@ -149,10 +247,20 @@ Nassim Taleb.
 \newblock {\em {The black swan : the impact of the highly improbable}}.
 \newblock Random House, New York, 2007.
 
+\bibitem{Teramoto}
+Sachio Teramoto, Tetsuo Asano, Naoki Katoh, and Benjamin Doerr.
+\newblock {Inserting Points Uniformly at Every Instance}.
+
 \bibitem{Al-Rfou}
 {The Theano Development Team}.
 \newblock {Theano: A Python framework for fast computation of mathematical
   expressions}.
 \newblock https://github.com/Theano/Theano, 2016.
+
+\bibitem{Varshney2017}
+Kush~R. Varshney.
+\newblock {Engineering safety in machine learning}.
+\newblock In {\em 2016 Inf. Theory Appl. Work. ITA 2016}. Institute of
+  Electrical and Electronics Engineers Inc., mar 2017.
 
 \end{thebibliography}

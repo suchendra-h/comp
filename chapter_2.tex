@@ -19,7 +19,7 @@ Based on the above-stated definition, the ML algorithm undergoes an experience i
 
 Unsupervised learning finds the properties of the overall structure of the dataset. Clustering as an example of unsupervised learning, finds clusters within a dataset and assigns each data-point to one of them.\\In supervised learning, on the other hand, data-points that the learning algorithm experiences have a label. This label acts as a guide for the ML algorithm. The term supervised arises from the fact that the labels instruct the algorithm what to do. Labels are unavailable in unsupervised learning and the ML system is responsible to make sense of the data independently \cite{IanGoodfellow2016}. 
 
-Reinforcement learning (RL) algorithms experience an environment instead of a fixed dataset. The algorithm should learn how to maximize a reward function by taking an appropriate action \cite{sutton1992introduction}. The learner discovers this appropriate action by trying different actions and observing the value of the reward function. Actions not only affect the immediate reward, but can also change next actions' rewards. Trial and error search and delayed reward are two main characteristics of RL.\\The learner, also known as the agent in RL terms, should have the capability to sense the state of the environment, take actions that can alter the state and also have a goal to reach by taking actions. These three aspects are included in the reward function used by the agent \cite{sutton1992introduction} \textcolor{red}{more about Deep RL?}
+Reinforcement learning (RL) algorithms experience an environment instead of a fixed dataset. The algorithm should learn how to maximize a reward function by taking an appropriate action \cite{sutton1992introduction}. The learner discovers this appropriate action by trying different actions and observing the value of the reward function. Actions not only affect the immediate reward, but can also change next actions' rewards. Trial and error search and delayed reward are two main characteristics of RL.\\The learner, also known as the agent in RL terms, should have the capability to sense the state of the environment, take actions that can alter the state and also have a goal to reach by taking actions. These three aspects are included in the reward function used by the agent \cite{sutton1992introduction}. 
 
 \section{Data in ML}
 
@@ -37,7 +37,6 @@ In some cases, the training and test datasets might be limited in size and to ha
     \label{fig:crossv}
 \end{figure}
 
-\textcolor{red}{add about neural networks}\\
 
 \section{Performance measures}
 In classification tasks, \textit{confusion matrix} is a way to demonstrate differences between predicted and true classes \cite{Bradley1997}. Table \ref{tab:conf-mat} shows the structure of a confusion matrix.
@@ -61,6 +60,41 @@ In Table \ref{tab:conf-mat} \textit{Tp} and \textit{Tn} represent true positives
 A variety of performance measures can be calculated from the confusion matrix, e.g., accuracy, precision, sensitivity and specificity \cite{Bradley1997}. Accuracy is often considered as a performance criteria which is simply the fraction of correctly classified samples to total samples, i.e., {\large $\frac{Tp + Tn}{N}$}. It is also possible to obtain the same information by calculating the \textit{error rate}.
 
 The Receiver Operating Characteristic (ROC) curve helps to find a pareto-optimal point between true and false positive rates as the decision threshold changes \cite{Bradley1997}. Each point on the curve represents the Tp (vertical axis) and Fp (horizontal axis) for a decision threshold. The area under ROC curve (AUC) is, therefore, a measure the sensitivity of the model to changes in operating conditions. If AUC value is at maximum, i.e., one, it can be concluded that the $P(Fp) = 0$ and $P(Tp) = 1$ even when the operating conditions change. 
-\subsection{Loss function}
-In some cases, the impact of misclassification is not the same for each class. For example, if a patient without cancer is classified as a cancer patient, there will be mental distress. However, if a cancer patient is diagnosed as healthy, the results could be premature death. A loss function is defined to penalize the second type of mis-classifications even if it is with the cost of having more errors in the other class \cite{bishop2006pattern}.
+% \subsection{Loss function}
+% In some cases, the impact of misclassification is not the same for each class. For example, if a patient without cancer is classified as a cancer patient, there will be mental distress. However, if a cancer patient is diagnosed as healthy, the results could be premature death. A loss function is defined to penalize the second type of mis-classifications even if it is with the cost of having more errors in the other class \cite{bishop2006pattern}.\\
+% \textcolor{red}{incomplete - add where else loss functions are used}
+% \textcolor{green}{include it in the NN section}
 % \subsection{No free lunch theorem}
+\section{Neural networks}
+In this section we briefly review the structure of neural networks and their building blocks. As the name suggests, neural networks are fundamentally a collection of entities called \textit{neurons}, which can hold small units of data. Here we consider a simple neural network, depicted in Figure \ref{fig:nn},consisting of a hidden layer and an output layer. Hidden layers are the ones not directly accessible from the outside world, i.e., not the input or output layers.
+\begin{figure}
+    \includegraphics[width=0.5\linewidth ]{figures/neural_net.png}
+    \centering
+    \caption{Structure of a two layer neural network. \cite{bishop2006pattern}.}
+    \label{fig:nn}
+\end{figure}
+
+Using the notation in \cite{bishop2006pattern}, if we have $D$ input variables, $x_{i}$, we can calculate linear combinations $a_{j}$ such that
+\[
+    a_{j}=\sum_{i=1}^{D}w^{(1)}_{ji}x_{i} + w^{(1)}_{j0}
+\]
+Here, $1 \leq j \leq M$ where $M$ represents number of neurons (nodes) in the hidden layer. The superscript $(1)$ corresponds to the first layer of the network, i.e., the hidden layer in this example. $w^{(1)}_{ji}$ are called weights and $w^{(1)}_{j0}$ are biases for the hidden layer.
+The $a_{j}$ values are referred to as \textit{activations}. Next, we use activation function, $h$, to calculate $z_{j}$, such that
+\[
+    z_{j}=h(a_{j})
+\]
+The activation function is required to be differentiable due to the differentiation in the learning process. $z_{j}$ values are then used to compute the linear combinations $a_{k}$ in a similar manner to the previous layer, i.e., 
+\[
+a_{k}=\sum_{j=1}^{M}w^{(2)}_{kj}z_{j} + w^{(2)}_{k0}
+\]
+$a_{k}$ is the output layer activation, therefore, similar to the hidden layer, an activation function, $\sigma$, will be used to reach final output values of the network, $y_{k}$.
+\[
+y_{k}=\sigma(a_{k})
+\]
+\textcolor{red}{Should I include the training process for neural networks? It takes more space. At least 1-1.5 pages.}
+
+
+\section{Trends in ML research}
+With rapid development of various frameworks and libraries in ML they are increasingly easier to be applied in different applications. It is possible to develop smaller models which in turn makes applications such as IoT \cite{iot_apps_conf} more feasible. 
+Prevalence of ML raises important questions in its fairness \cite{FairML2018}, privacy \cite{Federated2019}, and safety \cite{Varshney2017}. The term \textit{responsible ML} covers the social impacts of using ML in everyday life.
+Moreover, the desire to have faster, better performing ML systems has lead to areas such as quantum ML \cite{QuantumML2017}. As a matter of fact, quantum ML has been one of the initial motivations for experiments which lead to the famous quantum supremacy \cite{Quantum_sup}.

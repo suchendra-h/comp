@@ -1,22 +1,26 @@
 \contentsline {chapter}{Abstract}{i}{chapter*.1}%
-\contentsline {chapter}{Notation, Definitions, and Abbreviations}{vi}{chapter*.5}%
+\contentsline {chapter}{Notation, Definitions, and Abbreviations}{v}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Machine Learning}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Definition}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Learning types}{4}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Data in ML}{5}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Performance measures}{6}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Loss function}{7}{subsection.2.4.1}%
-\contentsline {chapter}{\numberline {3}Safety and assurance}{8}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Definition}{8}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Safety Assurance Case}{9}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Goal Structuring Notation}{10}{section.3.3}%
-\contentsline {section}{\numberline {3.4}An example of a GSN}{11}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Literature Review}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Machine Learning lifecycle}{14}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Data Management}{14}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Model Learning}{15}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Model Verification and Validation}{16}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Model Deployment}{17}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Open challenges in ML assurance}{18}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{20}{chapter.5}%
+\contentsline {section}{\numberline {2.5}Neural networks}{7}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Trends in ML research}{9}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Safety and assurance}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Definitions}{10}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Safety}{10}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Assurance}{11}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Safety Assurance Case}{11}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Goal Structuring Notation}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}An example of a GSN}{13}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Trends in safety research}{15}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Literature Review}{16}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Machine Learning lifecycle}{18}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Data Management}{18}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Model Learning}{19}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Model Verification and Validation}{20}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Model Deployment}{21}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Open challenges in ML assurance}{22}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{24}{chapter.5}%

@@ -2,7 +2,13 @@
 \label{chap:literature}
 
 In this chapter we will briefly review some of the literature about the safety of ML methods and identify major research questions in this area. 
+Today, ML is used in variety of applications with varying safety requirements. This diverse portfolio includes smart phones \cite{smartphone2012}, cars \cite{Levinson2011}, surgical equipment \cite{Egert2020}, construction industry \cite{bilal2020} and many more. A fault in an ML system, e.g. a misclassification, has different repercussions in each application. An out of focus image taken by a camera can be easily remedied, but a malfunction in a surgical equipment could be fatal and result in an irreversible situation. Therefore, assuring safety is an essential part of the design process for these applications.
 
+One major issue in safety assurance for ML is guaranteeing that the training data is complete and relevant. Data used in the operational stage is by definition relevant, however, training data may not reflect all possible situations that the learning algorithm needs to be exposed to. On the other hand, the operational environment may change and the training data may diminish in relevancy. As discussed in detail later in this chapter, assuring completeness and relevancy is challenging and may not always be feasible. 
+
+% \textcolor{blue}{IDEA: Creating a map of ML. Listing all successful applicaitons of ML in industry for example.}
+% 
+\textcolor{red}{As this part is mostly concerned with RL I should put it in a separate subsection}
 In \cite{Amodei2016}, five major research problems associated with unsafe behavior of ML models is presented. They can be summarized as
 \begin{enumerate}
 	\item Avoiding Negative Side Effects: How to ensure that the model will not disturb the environment while pursuing its goals, e.g. can a cleaning robot knock over a vase because it can clean faster by doing so? Can we do this without manually specifying everything the robot should not disturb.
@@ -24,11 +30,12 @@ In \cite{Amodei2016}, five major research problems associated with unsafe behavi
 To obtain assurance for ML systems it is essential to understand the ML lifecycle and how to analyze safety in each step. In this section we will first introduce these steps and review some of the safety measures for each step. This lifecycle follows a spiral process model, i.e., the stages are iteratively repeated to actively reduce risk \cite{Boehm2000}. ML lifecycle is comprised of four stages \cite{Ashmore2021} 
 
 \subsection{Data Management}
+\label{sub:DM}
 This stage involves collecting, preprocessing, augmenting and initial analysis of data. The training and validation datasets are also prepared in this step.
 From assurance perspective, the data collected in this step should be
 \begin{itemize}
-    \item Relevant: The dataset should be relevant to the desired functionality of the final model. For example a dataset of handwritten letters in Japanese language cannot be used for English language. 
-    \item Complete: The features of a dataset should not have unintended correlations that can confuse the classifier. For example, if a classifier is trained on pictures of wolves and huskies, and all wolves have snow in the background, it may be concluded that snow in the background means a wolf \cite{Ribeiro2016}. In this case the dataset is not complete because it does not include pictures of wolves with different backgrounds.
+    \item Relevant: The dataset should be relevant to the desired functionality of the final model. For example a dataset of handwritten letters in Japanese language cannot be used for English language. In many cases, a pre-existing dataset will be used to train the model. This dataset should be obtained from trusted sources with an encrypted transmission medium. An attacker can add irrelevant samples into the training dataset to make the final model behave in a specified way for particular inputs \cite{Chen2017}. The irrelevant data injected in the dataset is called a backdoor \cite{Chen2017} Despite early efforts in detecting backdoors in face recognition \cite{Wang2019} finding a general solution is still an open challenge.
+    \item Complete: The features of a dataset should not have unintended correlations that can confuse the classifier. For example, if a classifier is trained on pictures of wolves and huskies, and all wolves have snow in the background, it may be concluded that snow in the background means a wolf \cite{Ribeiro2016}. In this case the dataset is not complete because it does not include pictures of wolves with different backgrounds. Exploratory Data Analysis (EDA), is an important step in examining completeness of a dataset. It is also important to identify how the data points are distributed in the input sample space, measures such as gap ratio \cite{Teramoto} can be used to evaluate uniformity.
     \item Balanced: For classification problems, it can happen that one class has significantly more data-points in the training set than the others and thus, classifier has more exposure to that class. 
     \item Accurate: This property considers factors like sensor accuracy, correctness of data collection and processing method. In the case of supervised learning, labels' accuracy is important. The data collection process should be documented to identify potential inaccuracies \cite{Ashmore2021}.
 \end{itemize} 
