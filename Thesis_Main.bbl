@@ -1,10 +1,24 @@
 \begin{thebibliography}{10}
 
+\bibitem{zoo-caffe-21}
+{Caffe | Model Zoo}.
+\newblock http://caffe.berkeleyvision.org/model{\_}zoo.html.
+
+\bibitem{zoo21}
+{Collection: Model Zoos of machine and deep learning technologies}.
+\newblock https://github.com/collections/ai-model-zoos.
+
 \bibitem{iso15026-1-2019}
 {15026-1-2019 - ISO/IEC/IEEE International Standard - Systems and software
   engineering--Systems and software assurance --Part 1:Concepts and
   vocabulary}.
 \newblock {\em ISO/IEC/IEEE 15026-1:2019(E)}, pages 1--38, 2019.
+
+\bibitem{Adhikari2018}
+Ajaya Adhikari, D.~M.~J Tax, Riccardo Satta, and Matthias Fath.
+\newblock {LEAFAGE: Example-based and Feature importance-based Explanationsfor
+  Black-box ML models}.
+\newblock {\em IEEE Int. Conf. Fuzzy Syst.}, 2019-June, dec 2018.
 
 \bibitem{smartphone2012}
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra, and Jorge~L.
@@ -13,6 +27,11 @@ Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra, and Jorge~L.
   Hardware-Friendly Support Vector Machine}.
 \newblock {\em Lect. Notes Comput. Sci. (including Subser. Lect. Notes Artif.
   Intell. Lect. Notes Bioinformatics)}, 7657 LNCS:216--223, 2012.
+
+\bibitem{Antonio2018}
+Antreas Antoniou, Amos Storkey, and Harrison Edwards.
+\newblock {Data Augmentation Generative Adversarial Networks}.
+\newblock nov 2017.
 
 \bibitem{Ashmore2021}
 Rob Ashmore, Radu Calinescu, and Colin Paterson.
@@ -114,6 +133,12 @@ R.~A. Fisher.
 \newblock {The Use of Multiple Measurments in Taxonomic Problems}.
 \newblock {\em Ann. Eugen.}, 7(2):179--188, sep 1936.
 
+\bibitem{Flach2019}
+Peter Flach.
+\newblock {Performance Evaluation in Machine Learning: The Good, the Bad, the
+  Ugly, and the Way Forward}.
+\newblock {\em Proc. AAAI Conf. Artif. Intell.}, 33(01):9808--9814, jul 2019.
+
 \bibitem{organization2018iso}
 International~Organization for Standardization.
 \newblock {\em {ISO 26262: Road Vehicles : Functional Safety}}.
@@ -129,6 +154,12 @@ Kenneth~R Foster, Robert Koprowski, and Joseph~D Skufca.
 Yaroslav Ganin and Victor Lempitsky.
 \newblock {Unsupervised domain adaptation by backpropagation}.
 \newblock {\em 32nd Int. Conf. Mach. Learn. ICML 2015}, 2:1180--1189, sep 2015.
+
+\bibitem{Gu2019}
+Tianyu Gu, Brendan Dolan-Gavitt, and Siddharth Garg.
+\newblock {BadNets: Identifying Vulnerabilities in the Machine Learning Model
+  Supply Chain}.
+\newblock aug 2017.
 
 \bibitem{Hendrycks2019}
 Dan Hendrycks and Thomas Dietterich.
@@ -163,12 +194,16 @@ Tim Kelly and Rob Weaver.
 \bibitem{Ko2015}
 Tom Ko, Vijayaditya Peddinti, Daniel Povey, and Sanjeev Khudanpur.
 \newblock {Audio Augmentation for Speech Recognition}.
-\newblock Technical report.
 
 \bibitem{koopman2016challenges}
 Philip Koopman and Michael Wagner.
 \newblock {Challenges in Autonomous Vehicle Testing and Validation}.
 \newblock Technical report, 2016.
+
+\bibitem{Krenin2016}
+Samantha Krening, Brent Harrison, Karen~M Feigh, Charles Isbell, Mark Riedl,
+  and Andrea Thomaz.
+\newblock {Learning from Explanations using Sentiment and Advice in RL}.
 
 \bibitem{Laciok2021}
 Vendula Laciok, Katerina Sikorova, Bruno Fabiano, and Ales Bernatik.
@@ -189,6 +224,12 @@ Jesse Levinson, Jake Askeland, Jan Becker, Jennifer Dolson, David Held, Soeren
   Sebastian Thrun.
 \newblock {Towards fully autonomous driving: Systems and algorithms}.
 \newblock In {\em IEEE Intell. Veh. Symp. Proc.}, pages 163--168, 2011.
+
+\bibitem{Mahendran2015}
+Aravindh Mahendran and Andrea Vedaldi.
+\newblock {Understanding Deep Image Representations by Inverting Them}.
+\newblock {\em Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit.},
+  07-12-June-2015:5188--5196, nov 2014.
 
 \bibitem{Abadi2016Tensor}
 {Mart{\'{i}}n Abadi et al.}
@@ -220,12 +261,6 @@ Cindy~L. Russell.
   environmental implications}.
 \newblock {\em Environ. Res.}, 165:484--495, aug 2018.
 
-\bibitem{Wang2019}
-Stuart Russell, Daniel Dewey, and Max Tegmark.
-\newblock {Research Priorities for Robust and Beneficial Artificial
-  Intelligence}.
-\newblock 2015.
-
 \bibitem{Salay2017}
 Rick Salay, Rodrigo Queiroz, and Krzysztof Czarnecki.
 \newblock {An Analysis of ISO 26262: Using Machine Learning Safely in
@@ -236,6 +271,18 @@ Gesina Schwalbe and Martin Schels.
 \newblock {A Survey on Methods for the Safety Assurance of Machine Learning
   Based Systems}.
 \newblock 2020.
+
+\bibitem{Sheng2019}
+Victor~S. Sheng and Jing Zhang.
+\newblock {Machine Learning with Crowdsourcing: A Brief Summary of the Past
+  Research and Future Directions}.
+\newblock {\em Proc. AAAI Conf. Artif. Intell.}, 33(01):9837--9843, jul 2019.
+
+\bibitem{Sokolva2008}
+Marina Sokolova and Guy Lapalme.
+\newblock {A systematic analysis of performance measures for classification
+  tasks}.
+\newblock {\em Inf. Process. Manag.}, 45:427--437, 2009.
 
 \bibitem{sutton1992introduction}
 Richard~S Sutton.
@@ -262,5 +309,11 @@ Kush~R. Varshney.
 \newblock {Engineering safety in machine learning}.
 \newblock In {\em 2016 Inf. Theory Appl. Work. ITA 2016}. Institute of
   Electrical and Electronics Engineers Inc., mar 2017.
+
+\bibitem{Wang2019}
+Bing Wang and Chao Wu.
+\newblock {Safety informatics as a new, promising and sustainable area of
+  safety science in the information age}.
+\newblock 2019.
 
 \end{thebibliography}

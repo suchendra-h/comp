@@ -1,5 +1,5 @@
 \contentsline {chapter}{Abstract}{i}{chapter*.1}%
-\contentsline {chapter}{Notation, Definitions, and Abbreviations}{v}{chapter*.5}%
+\contentsline {chapter}{Abbreviations}{vi}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Machine Learning}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Definition}{3}{section.2.1}%
@@ -19,8 +19,8 @@
 \contentsline {chapter}{\numberline {4}Literature Review}{16}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Machine Learning lifecycle}{18}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Data Management}{18}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Model Learning}{19}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Model Verification and Validation}{20}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Model Deployment}{21}{subsection.4.1.4}%
-\contentsline {section}{\numberline {4.2}Open challenges in ML assurance}{22}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Conclusion}{24}{chapter.5}%
+\contentsline {subsection}{\numberline {4.1.2}Model Learning}{20}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Model Verification and Validation}{21}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Model Deployment}{22}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Open challenges in ML assurance}{23}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Conclusion}{25}{chapter.5}%
