@@ -1,20 +1,20 @@
 \chapter{Introduction}
 
-With new developments in Artificial Intelligence (AI) and ML, a growing number of research projects in this field and many companies have started utilizing these methods.
-ML methods are also used in many safety critical applications such as Autonomous Vehicles (AVs) and healthcare applications. Therefore, it is very important to have a clear perspective of the safety of such methods in these applications.
+With new developments in Artificial Intelligence (AI) and ML, a growing number of research and development projects have started utilizing these methods.
+ML methods are also used in many safety critical applications such as Autonomous Vehicles (AVs) and healthcare applications. Therefore, it is very important to have a clear perspective of the safety of such methods in these applications, and the challenges or difficulties associated with assuring them.
 
-In some applications, an erroneous outcome of the ML model has a harmful impact on many lives, for example in medical diagnosis \cite{Foster2014}, loan approval \cite{Lessmann2015}, autonomous vehicles \cite{koopman2016challenges}, and prison sentencing \cite{Berk2015}.
-Despite the numerous research papers in this subject, there is still a need to delve deeper and understand the behavior of ML systems in safety critical applications.
+In some applications, an erroneous outcome of the ML model can have a harmful impact, for example in medical diagnosis \cite{Foster2014}, loan approval \cite{Lessmann2015}, autonomous vehicles driving \cite{koopman2016challenges}, and prison sentencing \cite{Berk2015}.
+Despite the numerous research papers on this subject, there are still open questions and challenges, and still a need to delve deeper and understand the behavior of ML systems when applied in safety critical applications. There is also a need to better understand the risks associated with using ML in safety critical applications.
 
-One major drawback in using ML algorithms is that they are often treated as a black box and hence, using safety procedures for these methods is sometimes inapplicable \cite{Schwalbe2020}. In a review of automotive software safety methods \cite{Salay2017}, an analysis of ISO-26262 part-6 methods was performed with respect to safety of ML models. This assessment shows that about 40\% of software safety methods do not apply to ML models \cite{Salay2017}.
+One major drawback in using ML algorithms is that they are often treated as a black box and hence, using safety procedures for these methods is sometimes inapplicable or very difficult \cite{Schwalbe2020}. In a review of automotive software safety methods \cite{Salay2017}, an analysis of ISO-26262 part-6 methods was performed with respect to safety of ML models. This assessment shows that about 40\% of typical software safety methods do not apply to ML models \cite{Salay2017}.
 
 
 Safety specifications often assume that behavior of a component is fully specified. Since the training sets used in ML methods are not necessarily complete, they violate this assumption, and some parts of the specification becomes not applicable to the ML components \cite{Salay2017}. 
 Most widely used ML frameworks such as Tensorflow \cite{Abadi2016Tensor}, Caffe \cite{Caffe2014}, Pytorch \cite{pytorch2019} and Theano \cite{Al-Rfou} employ a model driven approach in problem solving. Although model driven engineering approach has been successful in safety critical applications such as Automotive industry, the ML models cannot be guaranteed to operate in a safe manner. 
 
-There are two approaches with respect to ML and safety, first is to study safety of ML methods, algorithms, and processes and the second is to use ML methods to improve pre-existing safety assurance procedures.
+There are two approaches with respect to ML and safety; the first is to study safety of ML methods, algorithms, and processes and the second is to use ML methods to improve pre-existing safety assurance procedures.
 We will initially follow the first approach and review the literature for the methods applied to standardize and measure the safety of ML methods.
 
 There are inherent performance metrics related to ML methods, such as accuracy and robustness, which can affect their applicability in safety critical applications. ML models can also be dependent to the domain they are trained \cite{Ganin2015}. In addition, other perturbations such as noise, natural and imaging artifacts can cause ML models to function less accurately \cite{Hendrycks2019}.
 
-In this report we will first explore basics of ML in Chapter \ref{chap:ML}. Then in Chapter \ref{chap:safety} we review definition of safety and how assurance cases are structured. Finally in Chapter \ref{chap:literature} we survey the literature on ML assurance and identify some of the open challenges in this area.
+In this report we will first explore the basics of ML in Chapter \ref{chap:ML}. Then in Chapter \ref{chap:safety} we review a definition of safety and how assurance cases are structured. Finally in Chapter \ref{chap:literature} we survey the literature on ML assurance and identify some of the open challenges in this area.

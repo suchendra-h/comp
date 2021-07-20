@@ -1,7 +1,7 @@
 \chapter{Safety and assurance}
 \label{chap:safety}
 
-In this chapter, we start with basic definition of safety. Next, we delve into safety assurance cases and how they are structured. Finally, we review a representation method for assurance cases called Goal Structuring Notation (GSN).
+In this chapter, we start with a basic definition of safety to set the context. Next, we delve into (safety) assurance cases and how they are structured. Finally, we review a representation method for assurance cases called Goal Structuring Notation (GSN).
 
 \section{Definitions}
 \subsection{Safety}
@@ -23,7 +23,7 @@ Grounds for justified confidence that a claim has been or will be achieved.
 \end{quotation}
 Assurance is, therefore, the grounds on which the users of a system can rely on its functionality. It is specially important for systems with complexity, such as ML, to give assurance to the users before they start utilization. The level of this assurance is closely related to the level of dependence or trust needed from the users' side. Adequate evidence and arguments need to be present to justify the safety and reliability of the system. The basis for this justification is achieved with reducing uncertainty in measurements, observations, estimations, predictions, information, inferences or effects of unknowns \cite{iso15026-1-2019}. 
 \section{Safety Assurance Case}
-Assurance cases have been successfully used in various industries to describe why a system can be trustfully used for a specific application \cite{Ashmore2021}.
+Assurance cases have been successfully used in various industries to specify an argument as to why a system can be safely used for a specific application in a specific context \cite{Ashmore2021}.
 A recent definition of safety assurance case is described in \cite{Bloomfield2010} as
 
 
@@ -38,7 +38,7 @@ Reasons used in a structured argument can be considered as premises in logical t
 % A safety assurance case \textcolor{red}{(Assurance case in short)} justifies safety of a system by bringing a valid argument that a set of claims are justified, given that a set of assumptions are fulfilled \cite{Burton}.
 The purpose of using an assurance case is to communicate a clear, comprehensive, defensible argument that a system is safe to be used in a particular context \cite{gsn2004Kelly}. Assurance cases are comprised of five basic components: claims, arguments, evidence, justifications and assumptions. The most common use of assurance cases is to give assurance about system's functionality and properties to the parties which were not involved in the process of developing the system \cite{iso15026-1-2019}.
 
-Assurance cases reason in a subjective manner, as compared to the logical proofs which consider an absolute truth. In other words, assurance cases are useful because the full range of a system's properties are not always representable in a logical formalization. Also, assurance cases may sometimes be disproved because the underlying logical theory used in them is not relevant \cite{iso15026-1-2019}.
+Assurance cases are used to explicate and support reasoning, albeit in a subjective manner, especially when compared to the logical proofs which consider an absolute truth. In other words, assurance cases are useful because the full range of a system's properties are not always representable in a logical formalization. Also, assurance cases may sometimes be disproved because the underlying logical theory used in them is not relevant \cite{iso15026-1-2019}.
 
 Since assurance cases are considered artefacts, they inherit quality related properties of them such as: the structure of its content, semantic features such as completeness, creation and maintenance. The conclusions of the assurance case should also be stated clearly with clear level of uncertainty \cite{iso15026-1-2019}. 
 % \textcolor{red}{more from 15020 about assurance cases?}
@@ -52,7 +52,7 @@ When the safety assurance case is more complex in nature, textual representation
     \label{fig:text-case}
 \end{figure}
 
-The Goal Structuring Notation(GSN) is a graphical notation for safety argumentation. A GSN explicitly represents elements of a safety argument and the relationships among these components. For example, how requirements are supported by claims or how claims are supported by evidence or how the case has a defined context \cite{gsn2004Kelly}. Figure \ref{fig:gsn} depicts basic building blocks of a GSN with example instances of each element. 
+The Goal Structuring Notation (GSN) is a graphical notation for safety argumentation. A GSN specification explicitly represents elements of a safety argument and the relationships among these components. For example, how requirements are supported by claims or how claims are supported by evidence or how the case has a defined context \cite{gsn2004Kelly}. Figure \ref{fig:gsn} depicts basic building blocks of a GSN with example instances of each element. 
 
 \begin{figure}
     \includegraphics[width=0.5\linewidth ]{figures/gsn.png}
@@ -61,7 +61,7 @@ The Goal Structuring Notation(GSN) is a graphical notation for safety argumentat
     \label{fig:gsn}
 \end{figure}
 
-\section{An example of a GSN}
+\section{An example of GSN}
 
 The goal structure is used to show how goals (claims about the system) can be split into sub-goals successively until the sub-goal can be directly supported by available evidence. Figure \ref{fig:gsn-example} represents an example of a GSN.
 
