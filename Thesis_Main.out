@@ -1,20 +1,20 @@
-\BOOKMARK [0][-]{chapter*.1}{\376\377\000A\000b\000s\000t\000r\000a\000c\000t}{}% 1
-\BOOKMARK [0][-]{chapter*.5}{\376\377\000A\000b\000b\000r\000e\000v\000i\000a\000t\000i\000o\000n\000s}{}% 2
-\BOOKMARK [0][-]{chapter.1}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{}% 3
-\BOOKMARK [0][-]{chapter.2}{\376\377\000M\000a\000c\000h\000i\000n\000e\000\040\000L\000e\000a\000r\000n\000i\000n\000g}{}% 4
-\BOOKMARK [1][-]{section.2.1}{\376\377\000D\000e\000f\000i\000n\000i\000t\000i\000o\000n}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.2}{\376\377\000L\000e\000a\000r\000n\000i\000n\000g\000\040\000t\000y\000p\000e\000s}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.3}{\376\377\000D\000a\000t\000a\000\040\000i\000n\000\040\000M\000L}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.4}{\376\377\000P\000e\000r\000f\000o\000r\000m\000a\000n\000c\000e\000\040\000m\000e\000a\000s\000u\000r\000e\000s}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.5}{\376\377\000N\000e\000u\000r\000a\000l\000\040\000n\000e\000t\000w\000o\000r\000k\000s}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.6}{\376\377\000T\000r\000e\000n\000d\000s\000\040\000i\000n\000\040\000M\000L\000\040\000r\000e\000s\000e\000a\000r\000c\000h}{chapter.2}% 10
-\BOOKMARK [0][-]{chapter.3}{\376\377\000S\000a\000f\000e\000t\000y\000\040\000a\000n\000d\000\040\000a\000s\000s\000u\000r\000a\000n\000c\000e}{}% 11
-\BOOKMARK [1][-]{section.3.1}{\376\377\000D\000e\000f\000i\000n\000i\000t\000i\000o\000n\000s}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.2}{\376\377\000S\000a\000f\000e\000t\000y\000\040\000A\000s\000s\000u\000r\000a\000n\000c\000e\000\040\000C\000a\000s\000e}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.3}{\376\377\000G\000o\000a\000l\000\040\000S\000t\000r\000u\000c\000t\000u\000r\000i\000n\000g\000\040\000N\000o\000t\000a\000t\000i\000o\000n}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.4}{\376\377\000A\000n\000\040\000e\000x\000a\000m\000p\000l\000e\000\040\000o\000f\000\040\000a\000\040\000G\000S\000N}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.5}{\376\377\000T\000r\000e\000n\000d\000s\000\040\000i\000n\000\040\000s\000a\000f\000e\000t\000y\000\040\000r\000e\000s\000e\000a\000r\000c\000h}{chapter.3}% 16
-\BOOKMARK [0][-]{chapter.4}{\376\377\000L\000i\000t\000e\000r\000a\000t\000u\000r\000e\000\040\000R\000e\000v\000i\000e\000w}{}% 17
-\BOOKMARK [1][-]{section.4.1}{\376\377\000M\000a\000c\000h\000i\000n\000e\000\040\000L\000e\000a\000r\000n\000i\000n\000g\000\040\000l\000i\000f\000e\000c\000y\000c\000l\000e}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.2}{\376\377\000O\000p\000e\000n\000\040\000c\000h\000a\000l\000l\000e\000n\000g\000e\000s\000\040\000i\000n\000\040\000M\000L\000\040\000a\000s\000s\000u\000r\000a\000n\000c\000e}{chapter.4}% 19
-\BOOKMARK [0][-]{chapter.5}{\376\377\000C\000o\000n\000c\000l\000u\000s\000i\000o\000n}{}% 20
+\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.5}{Abbreviations}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [0][-]{chapter.2}{Machine Learning}{}% 4
+\BOOKMARK [1][-]{section.2.1}{Definition}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.2}{Learning types}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.3}{Data in ML}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.4}{Performance measures}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.5}{Neural networks}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.6}{Trends in ML research}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{Safety and assurance}{}% 11
+\BOOKMARK [1][-]{section.3.1}{Definitions}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{Safety Assurance Case}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{Goal Structuring Notation}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.4}{An example of a GSN}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.5}{Trends in safety research}{chapter.3}% 16
+\BOOKMARK [0][-]{chapter.4}{Literature Review}{}% 17
+\BOOKMARK [1][-]{section.4.1}{Machine Learning lifecycle}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.2}{Open challenges in ML assurance}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 20
